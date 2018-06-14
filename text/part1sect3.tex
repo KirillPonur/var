@@ -5,11 +5,11 @@
 $\mathfrak{A}$ — его $\sigma$-алгебра событий. Вероятностью называется функция множества
 $P: \mathfrak{A}\rightarrow \mathbb{R}$, удовлетворяющая следующим аксиомам:
 
-Акс.$\mathcal{P}1$ (\textit{неотрицательность вероятности}). Для любого события $A\in\mathfrak{A}$ выполнено равенство $P(A)\geqslant 0$.
+Акс. $\mathcal{P}1$ (\textit{неотрицательность вероятности}). Для любого события $A\in\mathfrak{A}$ выполнено равенство $P(A)\geqslant 0$.
 
-Акс.$\mathcal{P}2$ (\textit{нормированность вероятности}). $P(\Omega)=1$ 
+Акс. $\mathcal{P}2$ (\textit{нормированность вероятности}). $P(\Omega)=1$ 
 
-Акс.$\mathcal{P}3$ (\textit{счётная аддитивность вероятности как функции множества}).
+Акс. $\mathcal{P}3$ (\textit{счётная аддитивность вероятности как функции множества}).
 \end{definition}
 Для любого счётного набора попарно несовместных событий \newline $A_1,A_2,\dots\in 
 \mathfrak{A}$
@@ -28,20 +28,22 @@ $P: \mathfrak{A}\rightarrow \mathbb{R}$, удовлетворяющая след
 	Тройка $(\Omega,\mathfrak(A),P)$ называется \textit{вероятностным пространством}.
 \end{definition}
 Докажем теперь основные свойства вероятности пп. \ref{lemma:3.3} – \ref{t:3.12}.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.5\textwidth]{pic/pic2.pdf}
+	\caption{Если $A\subseteq B$, то $P(B\ssm A=P(B)-P(A))$.}
+	\label{fig2}
+\end{figure}
 \begin{lemma}
 	\label{lemma:3.3}
-	Если событие A влечёт событие B, т.е $A\subseteq B$, то $P(B\ssm A)=P(B)-P(A)$
+	Если событие A влечёт событие B, т.е $A\subseteq B$, то $P(B\ssm A)=P(B)-P(A)$ (см. рис. \ref{fig2})
 \end{lemma}
 
 \begin{proof}
 	Т.к. $B=A\cup(B\ssm A)$,  и события A и $B\ssm A $ несовместны, то по аксиоме $\mathfrak{P}$ имеем $P(B)=P(A)+P(B\ssm A)$, что и требовалось доказать.
 \end{proof}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.5\textwidth]{pic/pic2.pdf}
-	\caption{Если $A\subseteq B$, то $P(B\ssm A=P(B)-P(A))$.}
-	\label{pic:2}
-\end{figure}
+
 
 \begin{consq}
 	\label{consq:1}
