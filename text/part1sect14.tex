@@ -1,0 +1,98 @@
+%!TEX root = ../var.tex
+\begin{zam}
+Пусть $\xi : \Omega \to \mathbb{R}$ -- абсолютно непрерывная случайная величина, имеющая плотность $f_\xi (x)$. Построим с помощью функции $g : \mathbb{R} \to \mathbb{R}$ новую случайную величину по формуле $\eta = g(\xi)$. 
+
+Требуется найти функцию распределения и плотность случайной величины $\eta$. Мы решим эту задачу сначала в предположении, что функция $y = g(x)$ дифференцируема и монотонна, т.е. когда во всех точках $x \in \mathbb{R}$ выполнено либо $g′(x) > 0$, либо $g′(x) < 0$.	
+\end{zam}
+\begin{theorem}
+	\label{th:14.2}
+Если $\xi$ -- абсолютно непрерывная случайная величина, имеющая функцию распределения $F_\xi (x)$ и плотность $f_\xi (x)$, и если $g :\mathbb{R} \to \mathbb{R}$ -- дифференцируемая и монотонная функция, то случайная величина $\eta = g(\xi)$ имеет плотность вероятности
+\begin{equation*}
+	f_\eta(y)=f_\xi\left(g^{-1}(y)\right)\left|\diff{[g^{-1}(y)]}{y}\right|
+\end{equation*}
+\end{theorem}
+\begin{proof}
+Заметим, что если $g :\mathbb{R} \to \mathbb{R}$  -- монотонная функция, то существует её функция$ g^{-1} :\mathbb{R} \to R$, и выполнено тождество
+\begin{equation*}
+	g(g^{-1}(y))\equiv y 	
+\end{equation*} 
+Дифференцируя его, получим тождество
+\begin{equation*}
+	g'(g^{-1}(y)) \cdot (g^{-1} (y))' \equiv 1,
+\end{equation*}
+которое означает, что производные $g′$ и $(g^{-1})'$ --
+одного знака, т.е. функции $g$ и $g^{-1}$ либо обе возрастающие, либо обе убывающие.
+
+
+1) Пусть сначала $g$ -- возрастающая функция, т.е. $g' > 0$ и $g^{-1} > 0$. Это означает, что неравенство $g(\xi) \leq y$ можно записать в виде $ \xi \leq g^{-1}(y)$.
+
+\begin{gather*}
+	F_{\eta}(y) = F_{g(\xi)}(y) = P(g(\xi) \leq y) = P(\xi \leq g^{-1} (y)) = F_\xi (g^{-1} (y)) =\\=
+	\int\limits^{g^{-1}(y)}_{-\infty} f_\xi(t) dt=
+	%
+	\left[
+	\begin{aligned}
+		t = g^{-1} (\tau ),\qquad & dt = (g^{-1}(\tau ))' d\tau\\
+		t = -\infty \mapsto \tau = -\infty,\quad & t = g^{-1}(y) \mapsto \tau = y
+	\end{aligned}\right]=\\=
+	\int\limits_{-\infty}^y (g^{-1}(\tau))' f_\xi(g^{-1}(\tau)) d\tau.
+\end{gather*}
+
+
+
+2) Пусть теперь $g$ -- убывающая функция, т.е. $g' < 0 $и $g^{-1} < 0$, тогда
+неравенство $g(\xi) \leq y$ можно записать в виде $\xi \geq g^{-1} (y)$.
+
+\begin{gather*}
+	F_{\eta}(y) = F_{g(\xi)}(y) = P(g(\xi) \leq y) = P(\xi \geq g^{-1} (y)) =\\=
+	\int\limits_{g^{-1}(y)}^{\infty} f_\xi(t) dt=
+	%
+	\left[
+	\begin{aligned}
+		t = g^{-1} (\tau ),\qquad & dt = (g^{-1}(\tau ))' d\tau\\
+		t = -\infty \mapsto \tau = -\infty,\quad & t = g^{-1}(y) \mapsto \tau = y
+	\end{aligned}\right]=\\=\int\limits^{-\infty}_y (g^{-1}(\tau))' f_\xi(g^{-1}(\tau)) d\tau=
+	\int\limits_{-\infty}^y \left|(g^{-1}(\tau))'\right| f_\xi(g^{-1}(\tau)) d\tau.
+\end{gather*}
+
+Объединяя оба случая в один, получим требуемую формулу.
+\end{proof}
+
+\begin{definition}
+\label{def:14.3}
+Пусть $A$ – подмножество на прямой $\mathbb{R}$, т.е. $A \subset
+\mathbb{R}$. Функция $\mathbf{1}_A :\mathbb{R} \to \{0, 1\}$, определённая по формуле
+\begin{equation*}
+	\mathbf{1}_A (x)=\left\{
+	\begin{aligned}
+		1, \text{ если } x\in A\\
+		0, \text{ если } x\notin A
+	\end{aligned}
+	\right.
+\end{equation*}
+называется выделяющей функцией множества $A$ или индикатором $A$.
+Если $A = [0, \infty)$, то обозначение $\mathbf{1}_A(x)$ сокращают до $\mathbf{1}(x)$. Заметим, что $\mathbf{1}(x) = u(x)$, т.е. совпадает с функцией Хевисайда.	
+\end{definition}
+
+\begin{zam}
+Пусть теперь $g : \mathbb{R} \to \mathbb{R}$, $y = g(x)$ -- дифференцируемая, кусочно монотонная функция, имеющая интервалы монотонности:
+\begin{equation*}
+	\mathcal{D}=\{D1=(-\infty, a_1], D_2 = (a_1 , a_2 ], \ldots , D_n = (a_{n-1} , \infty)\} 
+\end{equation*}
+
+Ясно, что все ограничения $g|_{D_i} : D_i \to \mathbb{R}$, определённые по формулам $g|_{D_i}(x)=g(x)$ являются взаимно однозначными функциями и поэтому имеют обратные $\left(g|_{D_i}\right)^{-1}(y)={g|_{D_i}}^{-1}(y)$ с областями определения $g(D_i)$ соответственно.
+\end{zam}
+
+\begin{theorem}[Без доказательства]
+	\label{th:14.5}
+Если $\xi $ -- абсолютно непрерывная случайная величина, имеющая функцию распределения $F_\xi (x)$ и плотность $f\xi (x)$, и если $g : \mathbb{R} \to \mathbb{R}$ -- кусочно дифференцируемая и кусочно монотонная функция на интервалах $\mathcal{D}$, то случайная величина $\eta = g(\xi)$ имеет плотность вероятности
+\begin{equation*}
+	f_\eta(y)=\sum\limits_{i=1}^n f_\xi\left(
+		{g|_{D_i}}^{-1}(y)
+	\right)\cdot
+	\left|
+		\diff{\left[ {g|_{D_i}}^{-1}(y) \right]}{y}\cdot\mathbf{1}_{g(D_i)}(y)
+	\right|
+\end{equation*}
+
+\end{theorem}
