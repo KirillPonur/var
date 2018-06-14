@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.4.1)  14 JUN 2018 12:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.4.1)  14 JUN 2018 13:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -960,20 +960,20 @@ Package: amsthm 2017/10/31 v2.20.4
  (./var.aux)
 \openout1 = `var.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
 
 (/usr/share/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
@@ -1061,17 +1061,10 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.15}).
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(./text/titlepage.tex (/usr/share/texmf-dist/tex/latex/ucs/data/uni-4.def
-File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
-)
-(/usr/share/texmf-dist/tex/latex/ucs/data/uni-33.def
-File: uni-33.def 2013/05/13 UCS: Unicode data U+2100..U+21FF
-) [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./var.toc<<ot1.cmap>><<o
-ml.cmap>><<oms.cmap>><<omx.cmap>>
+(./var.toc<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
- (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 2.
@@ -1083,96 +1076,140 @@ LaTeX Font Info:    Try loading font information for U+esint on input line 2.
 
 (/usr/share/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
-) [1])
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
 \tf@toc=\write5
 \openout5 = `var.toc'.
 
-
+ (/usr/share/texmf-dist/tex/latex/ucs/data/uni-4.def
+File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
+)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 17.0pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] (./text/input.tex) (./text/part1sect6.tex [3]
-
-LaTeX Warning: Command \cyri invalid in math mode on input line 4.
-
-(/usr/share/texmf-dist/tex/latex/ucs/data/uni-0.def
-File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-)
-Missing character: There is no и in font cmr12!
-
+[2] (./text/input.tex) (./text/part1sect1.tex [3]
 (/usr/share/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [4]
+) [4] [5]
 (/usr/share/texmf-dist/tex/latex/ucs/data/uni-34.def
 File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
-)
-Overfull \hbox (7.54466pt too wide) detected at line 47
-\OML/cmm/m/it/14.4 P\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 A[] \OMS/cmsy/m/n/14.
-4 \ \OML/cmm/m/it/14.4 A[] \OMS/cmsy/m/n/14.4 \ [] \ \OML/cmm/m/it/14.4 A[]\OT1
-/cmr/m/n/14.4 ) = \OML/cmm/m/it/14.4 P\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 A[]
-\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 P\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 A[
-]\OMS/cmsy/m/n/14.4 j\OML/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.
-4 P\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 A[]\OMS/cmsy/m/n/14.4 j\OML/cmm/m/it/1
-4.4 A[] \OMS/cmsy/m/n/14.4 \ \OML/cmm/m/it/14.4 A\OT1/cmr/m/n/14.4 2) \OMS/cmsy
-/m/n/14.4 ^^A \OML/cmm/m/it/14.4 ::: \OMS/cmsy/m/n/14.4 ^^A \OML/cmm/m/it/14.4 
-P\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 A[]\OMS/cmsy/m/n/14.4 j\OML/cmm/m/it/14.
-4 A[] \OMS/cmsy/m/n/14.4 \ \OML/cmm/m/it/14.4 A[] \OMS/cmsy/m/n/14.4 \ [] \ \OM
-L/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ;
+) [6] [7])
+(./text/part1sect2.tex [8] [9]
+LaTeX Font Info:    Try loading font information for U+euf on input line 86.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+) [10] [11]
+Overfull \hbox (2.21465pt too wide) in paragraph at lines 151--152
+[]\T2A/cmr/m/n/14.4 Для до-ка-за-тель-ства нам по-на-до-бят-ся лишь сле-ду-ю-щи
+е оче-
  []
 
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 153.
+
+(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Overfull \hbox (14.06891pt too wide) in paragraph at lines 87--87
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 153.
+ [12]
+Overfull \hbox (3.04059pt too wide) detected at line 189
+\OML/cmm/m/it/14.4 A[] \OT1/cmr/m/n/14.4 = \OMS/cmsy/m/n/14.4 f[] \OML/cmm/m/it
+/14.4 ;   \OMS/cmsy/m/n/14.4 ^^@ \OT1/cmr/m/n/14.4 2\OML/cmm/m/it/14.4 ^^Yn; [
+] ;   \OMS/cmsy/m/n/14.4 ^^@ \OT1/cmr/m/n/14.4 4\OML/cmm/m/it/14.4 ^^Y;   \OMS
+/cmsy/m/n/14.4 ^^@ \OT1/cmr/m/n/14.4 2\OML/cmm/m/it/14.4 ^^Y;  ;   \OT1/cmr/m/
+n/14.4 + 2\OML/cmm/m/it/14.4 ^^Y;   \OT1/cmr/m/n/14.4 + 4\OML/cmm/m/it/14.4 ^^
+Y; [] ;   \OT1/cmr/m/n/14.4 + 2\OML/cmm/m/it/14.4 ^^Yn; []\OMS/cmsy/m/n/14.4 
+g
+ []
+
+[13]
+Overfull \hbox (2.15723pt too wide) in paragraph at lines 234--235
+[]\T2A/cmr/m/n/14.4 Оставшуюся часть до-ка-за-тель-ства про-ве-дјм ме-то-дом от
+ про-тив-но-го. Пред-
+ []
+
+[14]) (./text/part1sect3.tex [15]
+Overfull \hbox (5.49487pt too wide) in paragraph at lines 28--29
+[]\T2A/cmr/bx/n/14.4 Определение 3.2. []\T2A/cmr/m/n/14.4 Трой-ка $\OT1/cmr/m/n
+/14.4 (
+\OML/cmm/m/it/14.4 ; []A\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ; P\OT1/cmr/m/n/1
+4.4 )$ \T2A/cmr/m/n/14.4 на-зы-ва-ет-ся \T2A/cmr/m/it/14.4 ве-ро-ят-ност-ным пр
+о-стран-
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./pic/pic2.pdf): PDF inclusion: found PDF versio
+n <1.6>, but at most version <1.5> allowed
+<pic/pic2.pdf, id=101, 247.0319pt x 171.8701pt>
+File: pic/pic2.pdf Graphic file (type pdf)
+<use pic/pic2.pdf>
+Package pdftex.def Info: pic/pic2.pdf  used on input line 41.
+(pdftex.def)             Requested size: 241.84843pt x 168.26369pt.
+[16 <./pic/pic2.pdf>])
+Overfull \hbox (14.06891pt too wide) in paragraph at lines 91--91
 []\T2A/cmr/bx/n/20.74 Формула пол-ной ве-ро-ят-но-сти и фор-му-лы Бай-
  []
 
-
-Overfull \hbox (4.81615pt too wide) in paragraph at lines 116--116
+(./text/part1sect8.tex [17] (/usr/share/texmf-dist/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+) [18]
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
+ [19])
+Overfull \hbox (4.81615pt too wide) in paragraph at lines 122--122
 []\T2A/cmr/bx/n/20.74 Числовые ха-рак-те-ри-сти-ки за-ви-си-мо-сти слу-
  []
 
 
-Overfull \hbox (3.66136pt too wide) in paragraph at lines 122--122
+Overfull \hbox (3.66136pt too wide) in paragraph at lines 128--128
 []\T2A/cmr/bx/n/20.74 Неравенство Бье-не-ме^^UЧебышјва и нера-вен-
  []
 
 
-Overfull \hbox (20.90155pt too wide) in paragraph at lines 129--129
+Overfull \hbox (20.90155pt too wide) in paragraph at lines 135--135
 []\T2A/cmr/bx/n/20.74 Предельные тео-ре-мы для би-но-ми-аль-но-го рас-
  []
 
-[5]
-Overfull \vbox (510.96355pt too high) has occurred while \output is active []
+[20]
+Overfull \vbox (407.45755pt too high) has occurred while \output is active []
 
 
-[6] (./var.aux) ) 
+[21] (./var.aux) ) 
 Here is how much of TeX's memory you used:
- 38933 strings out of 492982
- 952920 string characters out of 6138580
- 1202412 words of memory out of 5000000
- 41732 multiletter control sequences out of 15000+600000
- 20350 words of font info for 61 fonts, out of 8000000 for 9000
+ 38803 strings out of 492982
+ 951692 string characters out of 6138580
+ 1204502 words of memory out of 5000000
+ 41579 multiletter control sequences out of 15000+600000
+ 22496 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 77i,12n,128p,787b,703s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.e
-nc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
-></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/te
-xmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/
-type1/public/cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm
--super/sfbx2986.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfcc1200
+ 77i,17n,128p,787b,785s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.
+enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1
+/public/amsfonts/euler/eufm10.pfb></usr/share/texmf-dist/fonts/type1/public/ams
+fonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/sym
+bols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb
+></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/te
+xmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/
+type1/public/cm-super/sfbx2986.pfb></usr/share/texmf-dist/fonts/type1/public/cm
+-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000
 .pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/shar
-e/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf-dist/fo
-nts/type1/public/cm-super/sfti1440.pfb>
-Output written on var.pdf (7 pages, 205860 bytes).
+e/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
+Output written on var.pdf (21 pages, 439534 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
+ 191 PDF objects out of 1000 (max. 8388607)
+ 123 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 129 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 134 words of extra memory for PDF output out of 10000 (max. 10000000)
 

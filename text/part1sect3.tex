@@ -19,9 +19,8 @@ $P: \mathfrak{A}\rightarrow \mathbb{R}$, удовлетворяющая след
 \end{equation}
 В частности, эта аксиома справедлива и для конечного набора попарно несов
 местных событий.
-Акс. $\mathcal{P}1$ (непрерывность вероятности). Для любой убывающей последо
-вательности событий $A_1 \supset A_2 \supset\dots\supset A_n \supset \dots$ из $\sigma$-алгебры $\mathfrak{A}$ такой, что $\bigcap_{n=1}^{\infty}A_n=\O$
-, Выполняется равенство
+Акс. $\mathcal{P}1$ (непрерывность вероятности). Для любой убывающей последовательности событий $A_1 \supset A_2 \supset\dots\supset A_n \supset \dots$ из $\sigma$-алгебры $\mathfrak{A}$ такой, что $\bigcap_{n=1}^{\infty}A_n=\noo$,
+выполняется равенство
 \begin{equation}
 	\lim\limits_{n\to\infty}P(A_n)=0 \notag
 \end{equation}
@@ -50,10 +49,10 @@ $P: \mathfrak{A}\rightarrow \mathbb{R}$, удовлетворяющая след
 \end{consq}
 
 \begin{lemma}
-	$P(\O)=0$.
+	$P(\noo)=0$.
 \end{lemma}
 \begin{proof}
-	$P(\O)=P(\Omega\ssm\Omega)=P(\Omega)=P(\Omega)=1-1=0$
+	$P(\noo)=P(\Omega\ssm\Omega)=P(\Omega)=P(\Omega)=1-1=0$
 \end{proof}
 
 \begin{lemma}
@@ -102,7 +101,7 @@ $B \ssm (A \cup B)$ несовместны, то применяя сначала
 \end{consq}
 
 \begin{proof}
-	По лемме \ref{lemma:3.8} имеем $P(A\cup B)=P(A)+P(B)-P(A\cap B)=P(A)+P(B)-P(\O)=P(A)+P(B)$.
+	По лемме \ref{lemma:3.8} имеем $P(A\cup B)=P(A)+P(B)-P(A\cap B)=P(A)+P(B)-P(\noo)=P(A)+P(B)$.
 \end{proof}
 
 \begin{consq}

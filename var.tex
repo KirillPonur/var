@@ -24,8 +24,22 @@
 
 \theoremstyle{remark}
 \newtheorem{remark}[theorem]{Замечание}%[section]
-% =======
 
+\pagestyle{fancy} 
+	%очистим "шапку" страницы
+\fancyhead{} 
+	%слева сверху на четных и справа на нечетных
+\fancyhead[R]{Теория вероятностей} 
+	%справа сверху на четных и слева на нечетных
+\fancyhead[L]{Методичка} 
+	%очистим "подвал" страницы
+\fancyfoot{} 
+	% номер страницы в нижнем колинтуле в центре
+\fancyfoot[C]{\thepage} 
+
+\newcommand{\ssm}{\smallsetminus}
+\renewcommand{\O}{\noo}
+\renewcommand{\backslash}{\smallsetminus}
 
 % \theoremstyle{definition}
 % \theoremstyle{theorem}
@@ -45,7 +59,7 @@
 \renewcommand{\kappa}{\varkappa}
 \renewcommand{\hat}{\widehat}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{text/titlepage}
+% \input{text/titlepage}/
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{spacing}{1}
 \tableofcontents
@@ -57,36 +71,28 @@
 
 \part{События и их вероятности}
 \section{Элементы комбинаторики. Схемы шансов} %Кирилл
-% \input{text/part1sect1}
+\input{text/part1sect1}
 
 \section{События, операции над ними и $\sigma$-алгебры событий} %Федя
-% \input{text/part1sect2}
+\input{text/part1sect2}
 
 \section{Вероятность и её свойства} %Кирилл
-% \input{text/part1sect3}
+\input{text/part1sect3}
 
 \section{Способы задания и подсчёта вероятности} %Рита
 % \input{text/part1sect4}
-
-% \subsection{Экспериментальное нахождение вероятности}
-
-% \subsection{Вероятность на конечном пространстве}
-
-% \subsection{Классическая вероятность}
-
-% \subsection{Вероятность на счётном пространстве}
-
-% \subsection{Геометрическая вероятность}
 
 \section{Независимые события} %Кирилл
 % \input{text/part1sect5}
 
 \section{Условная вероятность} %Федя
-\input{text/part1sect6}
+% \input{text/part1sect6}
 
-\section{Формула полной вероятности и формулы Байеса}
+\section{Формула полной вероятности и формулы Байеса} %Кирилл
+% \input{text/part1sect7}
 
-\section{Биномиальное распределение}
+\section{Биномиальное распределение} % Федя
+\input{text/part1sect8}
 
 \section{$k$-номинальное распределение}
 
