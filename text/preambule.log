@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.4.1)  14 JUN 2018 14:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.4.1)  14 JUN 2018 14:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**var.tex
-(./var.tex
+**preambule.tex
+(./preambule.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/extsizes/extarticle.cls
@@ -31,7 +31,7 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen103
-) (./text/preambule.tex
+)
 (/usr/share/texmf-dist/tex/latex/cmap/cmap.sty
 Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
 )
@@ -862,341 +862,19 @@ Package tocloft Info: The document has section divisions on input line 51.
 )
 (/usr/share/texmf-dist/tex/latex/secdot/secdot.sty
 Package: secdot 2000/06/20 v1.0 section numbers with dots
-)
-(/usr/share/texmf-dist/tex/latex/setspace/setspace.sty
-Package: setspace 2011/12/19 v6.7a set line spacing
 ))
-(/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2017/10/31 v2.20.4
-\thm@style=\toks50
-\thm@bodyfont=\toks51
-\thm@headfont=\toks52
-\thm@notefont=\toks53
-\thm@headpunct=\toks54
-\thm@preskip=\skip92
-\thm@postskip=\skip93
-\thm@headsep=\skip94
-\dth@everypar=\toks55
-)
-\c@mydef=\count154
-\c@theorem=\count155
- (./var.aux)
-\openout1 = `var.aux'.
+! Emergency stop.
+<*> preambule.tex
+                 
+*** (job aborted, no legal \end found)
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-
-(/usr/share/texmf-dist/tex/latex/ucs/ucsencs.def
-File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
-)
-(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count156
-\scratchdimen=\dimen280
-\scratchbox=\box49
-\nofMPsegments=\count157
-\nofMParguments=\count158
-\everyMPshowfont=\toks56
-\MPscratchCnt=\count159
-\MPscratchDim=\dimen281
-\MPnumerator=\count160
-\makeMPintoPDFobject=\count161
-\everyMPtoPDFconversion=\toks57
-) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
-(/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: float package is loaded.
-Package caption Info: End \AtBeginDocument code.
-
-ABD: EveryShipout initializing macros
-
-Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
-ick labels; missing features). Consider writing \pgfplotsset{compat=1.15} into 
-your preamble.
- on input line 48.
-
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=483.69687pt
-* \textheight=674.33032pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-25.91173pt
-* \headheight=14.0pt
-* \headsep=25.0pt
-* \topskip=14.0pt
-* \footskip=30.0pt
-* \marginparwidth=15.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-(./text/titlepage.tex (/usr/share/texmf-dist/tex/latex/ucs/data/uni-4.def
-File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
-)
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./var.toc<<ot1.cmap>><<o
-ml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Try loading font information for U+msa on input line 2.
-
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 2.
-
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for U+esint on input line 2.
-
-(/usr/share/texmf-dist/tex/latex/esint/uesint.fd
-File: uesint.fd 
-) [1])
-\tf@toc=\write5
-\openout5 = `var.toc'.
-
-
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 17.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[2] (./text/input.tex) (./text/part1sect1.tex [3]
-(/usr/share/texmf-dist/tex/latex/ucs/data/uni-32.def
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [4] [5]
-(/usr/share/texmf-dist/tex/latex/ucs/data/uni-34.def
-File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
-) [6] [7])
-(./text/part1sect2.tex [8] [9]
-
-pdfTeX warning: pdflatex (file ./pic/pic1.pdf): PDF inclusion: found PDF versio
-n <1.6>, but at most version <1.5> allowed
-<pic/pic1.pdf, id=60, 220.9595pt x 132.78407pt>
-File: pic/pic1.pdf Graphic file (type pdf)
-<use pic/pic1.pdf>
-Package pdftex.def Info: pic/pic1.pdf  used on input line 61.
-(pdftex.def)             Requested size: 220.95894pt x 132.78374pt.
-LaTeX Font Info:    Try loading font information for U+euf on input line 92.
-(/usr/share/texmf-dist/tex/latex/amsfonts/ueuf.fd
-File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-) [10 <./pic/pic1.pdf>]
-[11]
-Overfull \hbox (2.21465pt too wide) in paragraph at lines 152--153
-[]\T2A/cmr/m/n/14.4 Для до-ка-за-тель-ства нам по-на-до-бят-ся лишь сле-ду-ю-щи
-е оче-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 155.
-
-(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 155.
- [12]
-Overfull \hbox (3.04059pt too wide) detected at line 191
-\OML/cmm/m/it/14.4 A[] \OT1/cmr/m/n/14.4 = \OMS/cmsy/m/n/14.4 f[] \OML/cmm/m/it
-/14.4 ;   \OMS/cmsy/m/n/14.4 ^^@ \OT1/cmr/m/n/14.4 2\OML/cmm/m/it/14.4 ^^Yn; [
-] ;   \OMS/cmsy/m/n/14.4 ^^@ \OT1/cmr/m/n/14.4 4\OML/cmm/m/it/14.4 ^^Y;   \OMS
-/cmsy/m/n/14.4 ^^@ \OT1/cmr/m/n/14.4 2\OML/cmm/m/it/14.4 ^^Y;  ;   \OT1/cmr/m/
-n/14.4 + 2\OML/cmm/m/it/14.4 ^^Y;   \OT1/cmr/m/n/14.4 + 4\OML/cmm/m/it/14.4 ^^
-Y; [] ;   \OT1/cmr/m/n/14.4 + 2\OML/cmm/m/it/14.4 ^^Yn; []\OMS/cmsy/m/n/14.4 
-g
- []
-
-[13]
-Overfull \hbox (2.15723pt too wide) in paragraph at lines 234--235
-[]\T2A/cmr/m/n/14.4 Оставшуюся часть до-ка-за-тель-ства про-ве-дјм ме-то-дом от
- про-тив-но-го. Пред-
- []
-
-[14]) (./text/part1sect3.tex [15]
-Overfull \hbox (3.1307pt too wide) in paragraph at lines 12--13
-[]\T2A/cmr/m/n/14.4 Акс. $\OMS/cmsy/m/n/14.4 P\OT1/cmr/m/n/14.4 3$ \T2A/cmr/m/n
-/14.4 (\T2A/cmr/m/it/14.4 счјт-ная ад-ди-тив-ность ве-ро-ят-но-сти как функ-ции
- мно-же-ства\T2A/cmr/m/n/14.4 ). 
- []
-
-
-Overfull \hbox (5.49487pt too wide) in paragraph at lines 28--29
-[]\T2A/cmr/bx/n/14.4 Определение 3.2. []\T2A/cmr/m/n/14.4 Трой-ка $\OT1/cmr/m/n
-/14.4 (
-\OML/cmm/m/it/14.4 ; []A\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ; P\OT1/cmr/m/n/1
-4.4 )$ \T2A/cmr/m/n/14.4 на-зы-ва-ет-ся \T2A/cmr/m/it/14.4 ве-ро-ят-ност-ным пр
-о-стран-
- []
-
-
-
-pdfTeX warning: pdflatex (file ./pic/pic2.pdf): PDF inclusion: found PDF versio
-n <1.6>, but at most version <1.5> allowed
-<pic/pic2.pdf, id=144, 247.0319pt x 171.8701pt>
-File: pic/pic2.pdf Graphic file (type pdf)
-<use pic/pic2.pdf>
-Package pdftex.def Info: pic/pic2.pdf  used on input line 34.
-(pdftex.def)             Requested size: 241.84843pt x 168.26369pt.
-[16 <./pic/pic2.pdf>] [17]) (./text/part1sect5.tex
-(/usr/share/texmf-dist/tex/latex/ucs/data/uni-38.def
-File: uni-38.def 2013/05/13 UCS: Unicode data U+2600..U+26FF
-) [18]
-
-pdfTeX warning: pdflatex (file ./pic/pic6.pdf): PDF inclusion: found PDF versio
-n <1.6>, but at most version <1.5> allowed
-<pic/pic6.pdf, id=162, 149.79562pt x 119.83571pt>
-File: pic/pic6.pdf Graphic file (type pdf)
-<use pic/pic6.pdf>
-Package pdftex.def Info: pic/pic6.pdf  used on input line 48.
-(pdftex.def)             Requested size: 241.84843pt x 193.4946pt.
-[19 <./pic/pic6.pdf>]) (./text/part1sect6.tex
-
-LaTeX Warning: Command \cyri invalid in math mode on input line 4.
-
-Missing character: There is no и in font cmr12!
-
-Overfull \hbox (7.54466pt too wide) detected at line 47
-\OML/cmm/m/it/14.4 P\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 A[] \OMS/cmsy/m/n/14.
-4 \ \OML/cmm/m/it/14.4 A[] \OMS/cmsy/m/n/14.4 \ [] \ \OML/cmm/m/it/14.4 A[]\OT1
-/cmr/m/n/14.4 ) = \OML/cmm/m/it/14.4 P\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 A[]
-\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 P\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 A[
-]\OMS/cmsy/m/n/14.4 j\OML/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.
-4 P\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 A[]\OMS/cmsy/m/n/14.4 j\OML/cmm/m/it/1
-4.4 A[] \OMS/cmsy/m/n/14.4 \ \OML/cmm/m/it/14.4 A\OT1/cmr/m/n/14.4 2) \OMS/cmsy
-/m/n/14.4 ^^A \OML/cmm/m/it/14.4 ::: \OMS/cmsy/m/n/14.4 ^^A \OML/cmm/m/it/14.4 
-P\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 A[]\OMS/cmsy/m/n/14.4 j\OML/cmm/m/it/14.
-4 A[] \OMS/cmsy/m/n/14.4 \ \OML/cmm/m/it/14.4 A[] \OMS/cmsy/m/n/14.4 \ [] \ \OM
-L/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ;
- []
-
-[20])
-Overfull \hbox (14.06891pt too wide) in paragraph at lines 80--80
-[]\T2A/cmr/bx/n/20.74 Формула пол-ной ве-ро-ят-но-сти и фор-му-лы Бай-
- []
-
-(./text/part1sect8.tex (/usr/share/texmf-dist/tex/latex/ucs/data/uni-0.def
-File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-)
-[21]
-
-pdfTeX warning: pdflatex (file ./pic/pic8.pdf): PDF inclusion: found PDF versio
-n <1.6>, but at most version <1.5> allowed
-<pic/pic8.pdf, id=240, 348.48593pt x 140.63742pt>
-File: pic/pic8.pdf Graphic file (type pdf)
-<use pic/pic8.pdf>
-Package pdftex.def Info: pic/pic8.pdf  used on input line 62.
-(pdftex.def)             Requested size: 348.48506pt x 140.63705pt.
-LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 71.
-[22 <./pic/pic8.pdf>])
-Overfull \hbox (4.81615pt too wide) in paragraph at lines 112--112
-[]\T2A/cmr/bx/n/20.74 Числовые ха-рак-те-ри-сти-ки за-ви-си-мо-сти слу-
- []
-
-
-Overfull \hbox (3.66136pt too wide) in paragraph at lines 118--118
-[]\T2A/cmr/bx/n/20.74 Неравенство Бье-не-ме^^UЧебышјва и нера-вен-
- []
-
-
-Overfull \hbox (20.90155pt too wide) in paragraph at lines 125--125
-[]\T2A/cmr/bx/n/20.74 Предельные тео-ре-мы для би-но-ми-аль-но-го рас-
- []
-
-[23]
-Overfull \vbox (407.45755pt too high) has occurred while \output is active []
-
-
-[24] (./var.aux) ) 
+ 
 Here is how much of TeX's memory you used:
- 31565 strings out of 492982
- 727822 string characters out of 6138580
- 887575 words of memory out of 5000000
- 34403 multiletter control sequences out of 15000+600000
- 24901 words of font info for 74 fonts, out of 8000000 for 9000
+ 28560 strings out of 492982
+ 691939 string characters out of 6138580
+ 877561 words of memory out of 5000000
+ 31573 multiletter control sequences out of 15000+600000
+ 4850 words of font info for 17 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,17n,100p,792b,703s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.
-enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
-ts/euler/eufm10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/
-msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pf
-b></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/t
-exmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts
-/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/type1/public/c
-m-super/sfbx2986.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx358
-3.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/sha
-re/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/f
-onts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/cm-super/sfrm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfr
-m2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on var.pdf (25 pages, 1482900 bytes).
-PDF statistics:
- 356 PDF objects out of 1000 (max. 8388607)
- 265 compressed objects within 3 object streams
- 0 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 66i,0n,100p,775b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

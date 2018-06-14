@@ -1,18 +1,17 @@
-\input{text/diss}
-\usepackage{setspace}
-\usepackage{amsmath, amssymb}
-\newcommand{\noo}{\varnothing}
-\usepackage{amsthm}
-\DeclareMathOperator{\sinc}{sinc}
-% \newcommand{\dif}[3]{
+\documentclass[a4paper,14pt]{extarticle}
+\input{text/preambule}
+\geometry		
+	{
+		left			=	2cm,
+		right 			=	2cm,
+		top 			=	3cm,
+		bottom 			=	3cm,
+		bindingoffset	=	0cm
+	}
 
-% \newtheorem{mydef}{}
+
 \newtheorem{mydef}{Определение}[section]
-% \newtheorem{ppp}{Предложение}
-
-% <<<<<<< Updated upstream
 \newtheorem{theorem}{Теорема}[section]
-
 \newtheorem{lemma}[theorem]{Лемма}%[section]
 
 \theoremstyle{definition}
@@ -20,55 +19,45 @@
 \newtheorem{definition}[theorem]{Определение}%[section]
 \newtheorem{deflemma}[theorem]{Лемма-определение}%[section]
 \newtheorem{zam}[theorem]{Замечание}
-% \newtheorem{lemma}{Лемма}
+\newtheorem{example}[theorem]{Пример}
 
 \theoremstyle{remark}
 \newtheorem{remark}[theorem]{Замечание}%[section]
 
 \pagestyle{fancy} 
-	%очистим "шапку" страницы
 \fancyhead{} 
-	%слева сверху на четных и справа на нечетных
 \fancyhead[R]{Теория вероятностей} 
-	%справа сверху на четных и слева на нечетных
-\fancyhead[L]{Методичка} 
-	%очистим "подвал" страницы
+\fancyhead[L]{Методическое пособие} 
 \fancyfoot{} 
-	% номер страницы в нижнем колинтуле в центре
 \fancyfoot[C]{\thepage} 
 
-\newcommand{\ssm}{\smallsetminus}
-\renewcommand{\O}{\noo}
 \renewcommand{\backslash}{\smallsetminus}
+\newcommand{\ssm}{\smallsetminus}
+\newcommand{\noo}{\varnothing}
+\renewcommand{\O}{\noo}
 
-% \theoremstyle{definition}
-% \theoremstyle{theorem}
-% \newtheorem{theorem}[definition]{Теорема}
-
-\begin{document}
-
-
-\def\labauthors{}
-\def\labgroup{}
-\def\labnumber{}
-\def\labtheme{}
+\DeclareMathOperator{\sinc}{sinc}
 \renewcommand{\vec}{\mathbf}
 \renewcommand{\Re}{\operatorname{Re}}
 \renewcommand{\Im}{\operatorname{Im}}
 \renewcommand{\phi}{\varphi}
 \renewcommand{\kappa}{\varkappa}
 \renewcommand{\hat}{\widehat}
+\renewcommand{\contentsname}{Оглавление}
+\newcommand{\mean}[1]{\langle#1\rangle}
+\begin{document}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \input{text/titlepage}/
+\input{text/titlepage}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{spacing}{1}
 \tableofcontents
 \end{spacing}
-% \setstretch{1.2}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \part*{Исторические сведения}
 \input{text/input}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \part{События и их вероятности}
 \section{Элементы комбинаторики. Схемы шансов} %Кирилл
 \input{text/part1sect1}
@@ -82,23 +71,24 @@
 \section{Способы задания и подсчёта вероятности} %Рита
 % \input{text/part1sect4}
 
-\section{Независимые события} %Кирилл
-% \input{text/part1sect5}
+\section{Независимые события} %Рита
+\input{text/part1sect5}
 
 \section{Условная вероятность} %Федя
-% \input{text/part1sect6}
+\input{text/part1sect6}
 
-\section{Формула полной вероятности и формулы Байеса} %Кирилл
+\section{Формула полной вероятности и формулы Байеса} %Рита
 % \input{text/part1sect7}
 
 \section{Биномиальное распределение} % Федя
 \input{text/part1sect8}
 
-\section{$k$-номинальное распределение}
+\section{$k$-номинальное распределение} % Кирилл
+% \input{text/part1sect9}
 
-\section{Гипергеометрическое распрделение}
+\section{Гипергеометрическое распределение}
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \part{Теория случайных величин}
 
@@ -145,13 +135,4 @@
 и распределение Стьюдента}
 
 \section{Цепи Маркова}
-
-
-
-
-
-
-
-
-
 \end{document}
