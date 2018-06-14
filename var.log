@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.4.1)  14 JUN 2018 11:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.4.1)  14 JUN 2018 12:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -960,20 +960,20 @@ Package: amsthm 2017/10/31 v2.20.4
  (./var.aux)
 \openout1 = `var.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 (/usr/share/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
@@ -1083,82 +1083,96 @@ LaTeX Font Info:    Try loading font information for U+esint on input line 2.
 
 (/usr/share/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
-))
+) [1])
 \tf@toc=\write5
 \openout5 = `var.toc'.
 
- [1] (./text/input.tex
+
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 17.0pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2]) (./text/part1sect1.tex
+[2] (./text/input.tex) (./text/part1sect6.tex [3]
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 4.
+
+(/usr/share/texmf-dist/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+)
+Missing character: There is no и in font cmr12!
+
 (/usr/share/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [3] [4]
+) [4]
 (/usr/share/texmf-dist/tex/latex/ucs/data/uni-34.def
 File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
-) [5] [6]
-
-LaTeX Warning: Command \cyri invalid in math mode on input line 170.
-
-Missing character: There is no и in font cmr12!
-[7]) (./text/part1sect2.tex [8]
-Overfull \hbox (32.43579pt too wide) in paragraph at lines 37--38
-\T2A/cmr/m/n/14.4 Про-стран-ство эле-мен-тар-ных со-бы-тий $\OT1/cmr/m/n/14.4 
- = \OMS/cmsy/m/n/14.4 f\OML/cmm/m/it/14.4 o; po; ppo; pppo; ppppo; pppppo; []\O
-MS/cmsy/m/n/14.4 g$
- []
-
-[9] [10]
-LaTeX Font Info:    Try loading font information for U+euf on input line 86.
- (/usr/share/texmf-dist/tex/latex/amsfonts/ueuf.fd
-File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-) [11] [12]
-Overfull \hbox (2.21465pt too wide) in paragraph at lines 151--152
-[]\T2A/cmr/m/n/14.4 Для до-ка-за-тель-ства нам по-на-до-бят-ся лишь сле-ду-ю-щи
-е оче-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 153.
-
-(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 153.
- [13] (./var.aux) ) ) 
+Overfull \hbox (7.54466pt too wide) detected at line 47
+\OML/cmm/m/it/14.4 P\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 A[] \OMS/cmsy/m/n/14.
+4 \ \OML/cmm/m/it/14.4 A[] \OMS/cmsy/m/n/14.4 \ [] \ \OML/cmm/m/it/14.4 A[]\OT1
+/cmr/m/n/14.4 ) = \OML/cmm/m/it/14.4 P\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 A[]
+\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 P\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 A[
+]\OMS/cmsy/m/n/14.4 j\OML/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.
+4 P\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 A[]\OMS/cmsy/m/n/14.4 j\OML/cmm/m/it/1
+4.4 A[] \OMS/cmsy/m/n/14.4 \ \OML/cmm/m/it/14.4 A\OT1/cmr/m/n/14.4 2) \OMS/cmsy
+/m/n/14.4 ^^A \OML/cmm/m/it/14.4 ::: \OMS/cmsy/m/n/14.4 ^^A \OML/cmm/m/it/14.4 
+P\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 A[]\OMS/cmsy/m/n/14.4 j\OML/cmm/m/it/14.
+4 A[] \OMS/cmsy/m/n/14.4 \ \OML/cmm/m/it/14.4 A[] \OMS/cmsy/m/n/14.4 \ [] \ \OM
+L/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ;
+ []
+
+)
+Overfull \hbox (14.06891pt too wide) in paragraph at lines 87--87
+[]\T2A/cmr/bx/n/20.74 Формула пол-ной ве-ро-ят-но-сти и фор-му-лы Бай-
+ []
+
+
+Overfull \hbox (4.81615pt too wide) in paragraph at lines 116--116
+[]\T2A/cmr/bx/n/20.74 Числовые ха-рак-те-ри-сти-ки за-ви-си-мо-сти слу-
+ []
+
+
+Overfull \hbox (3.66136pt too wide) in paragraph at lines 122--122
+[]\T2A/cmr/bx/n/20.74 Неравенство Бье-не-ме^^UЧебышјва и нера-вен-
+ []
+
+
+Overfull \hbox (20.90155pt too wide) in paragraph at lines 129--129
+[]\T2A/cmr/bx/n/20.74 Предельные тео-ре-мы для би-но-ми-аль-но-го рас-
+ []
+
+[5]
+Overfull \vbox (510.96355pt too high) has occurred while \output is active []
+
+
+[6] (./var.aux) ) 
 Here is how much of TeX's memory you used:
- 38497 strings out of 492982
- 948694 string characters out of 6138580
- 1201399 words of memory out of 5000000
- 41276 multiletter control sequences out of 15000+600000
- 23609 words of font info for 71 fonts, out of 8000000 for 9000
+ 38933 strings out of 492982
+ 952920 string characters out of 6138580
+ 1202412 words of memory out of 5000000
+ 41732 multiletter control sequences out of 15000+600000
+ 20350 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  77i,12n,128p,787b,703s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t
-2a.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share
-/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-di
-st/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/
-type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm
--super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2074
-.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2986.pfb></usr/shar
-e/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf-dist/fo
-nts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm
-1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/
-share/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on var.pdf (14 pages, 282359 bytes).
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.e
+nc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/te
+xmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/
+type1/public/cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm
+-super/sfbx2986.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfcc1200
+.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/shar
+e/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf-dist/fo
+nts/type1/public/cm-super/sfti1440.pfb>
+Output written on var.pdf (7 pages, 205860 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
+ 117 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  129 words of extra memory for PDF output out of 10000 (max. 10000000)
 
