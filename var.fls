@@ -504,6 +504,17 @@ INPUT ./pic/pic11.pdf
 INPUT pic/pic12.pdf
 INPUT ./pic/pic12.pdf
 INPUT ./pic/pic12.pdf
+INPUT text/part2sect12.tex
+INPUT text/part2sect12.tex
+INPUT pic/pic13.pdf
+INPUT ./pic/pic13.pdf
+INPUT ./pic/pic13.pdf
+INPUT pic/pic14.pdf
+INPUT ./pic/pic14.pdf
+INPUT ./pic/pic14.pdf
+INPUT pic/pic15.pdf
+INPUT ./pic/pic15.pdf
+INPUT ./pic/pic15.pdf
 INPUT text/part2sect14.tex
 INPUT text/part2sect14.tex
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
@@ -514,6 +525,8 @@ INPUT text/part2sect16.tex
 INPUT pic/pic22.pdf
 INPUT ./pic/pic22.pdf
 INPUT ./pic/pic22.pdf
+INPUT text/part2sect18.tex
+INPUT text/part2sect18.tex
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT var.aux
