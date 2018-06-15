@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.4.1)  15 JUN 2018 20:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.4.1)  15 JUN 2018 23:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -708,7 +708,7 @@ n <1.6>, but at most version <1.5> allowed
 <pic/pic6.pdf, id=339, 149.79562pt x 119.83571pt>
 File: pic/pic6.pdf Graphic file (type pdf)
 <use pic/pic6.pdf>
-Package pdftex.def Info: pic/pic6.pdf  used on input line 51.
+Package pdftex.def Info: pic/pic6.pdf  used on input line 52.
 (pdftex.def)             Requested size: 241.84843pt x 193.4946pt.
 [29 <./pic/pic6.pdf>]) (./text/part1sect6.tex
 Overfull \hbox (3.48245pt too wide) in paragraph at lines 41--42
@@ -733,9 +733,9 @@ n <1.6>, but at most version <1.5> allowed
 <pic/pic7.pdf, id=405, 185.70279pt x 98.67966pt>
 File: pic/pic7.pdf Graphic file (type pdf)
 <use pic/pic7.pdf>
-Package pdftex.def Info: pic/pic7.pdf  used on input line 43.
+Package pdftex.def Info: pic/pic7.pdf  used on input line 44.
 (pdftex.def)             Requested size: 241.84843pt x 128.52443pt.
-[31]) (./text/part1sect8.tex [32 <./pic/pic7.pdf>] [33]
+[31] [32 <./pic/pic7.pdf>]) (./text/part1sect8.tex [33]
 
 pdfTeX warning: pdflatex (file ./pic/pic8.pdf): PDF inclusion: found PDF versio
 n <1.6>, but at most version <1.5> allowed
@@ -746,7 +746,7 @@ Package pdftex.def Info: pic/pic8.pdf  used on input line 64.
 (pdftex.def)             Requested size: 348.48506pt x 140.63705pt.
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <14.4> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 74.
-[34 <./pic/pic8.pdf>]) (./text/part1sect9.tex [35]) [36]
+[34 <./pic/pic8.pdf>]) (./text/part1sect9.tex [35] [36])
 (./text/part1sect10.tex [37]) (./text/part2sect11.tex
 Overfull \hbox (3.85141pt too wide) in paragraph at lines 23--26
 \T2A/cmr/m/n/14.4 щью тож-де-ствен-ной функ-ции $\OML/cmm/m/it/14.4 ^^X\OT1/cmr
@@ -827,13 +827,13 @@ File: pic/pic15.pdf Graphic file (type pdf)
 Package pdftex.def Info: pic/pic15.pdf  used on input line 166.
 (pdftex.def)             Requested size: 326.72784pt x 245.53171pt.
 [46 <./pic/pic14.pdf>]
-Overfull \hbox (23.48987pt too wide) detected at line 173
+Overfull \hbox (1.71204pt too wide) detected at line 173
 \OT1/cmss/m/n/14.4 P\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 a \OMS/cmsy/m/n/14.4 
 ^^@ \OML/cmm/m/it/14.4 ^^[ \OMS/cmsy/m/n/14.4 ^^T \OML/cmm/m/it/14.4 ^^X \OMS/c
 msy/m/n/14.4 ^^T \OML/cmm/m/it/14.4 a \OT1/cmr/m/n/14.4 + \OML/cmm/m/it/14.4 ^^
-[\OT1/cmr/m/n/14.4 ) = [] [][] \OML/cmm/m/it/14.4 e[]dx \OT1/cmr/m/n/14.4 = [] 
-[][] \OML/cmm/m/it/14.4 e[]dt \OT1/cmr/m/n/14.4 = 2^^H(1) \OMS/cmsy/m/n/14.4 ^^
-Y \OT1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 :\OT1/cmr/m/n/14.4 6827
+[\OT1/cmr/m/n/14.4 ) = [] [] \OML/cmm/m/it/14.4 e[]dx \OT1/cmr/m/n/14.4 = [] []
+ \OML/cmm/m/it/14.4 e[]dt \OT1/cmr/m/n/14.4 = 2^^H(1) \OMS/cmsy/m/n/14.4 ^^Y \O
+T1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 :\OT1/cmr/m/n/14.4 6827
  []
 
 ) (./text/part2sect13.tex [47 <./pic/pic15.pdf>]
@@ -852,7 +852,7 @@ on <1.6>, but at most version <1.5> allowed
 <pic/pic17.pdf, id=968, 217.84787pt x 90.25117pt>
 File: pic/pic17.pdf Graphic file (type pdf)
 <use pic/pic17.pdf>
-Package pdftex.def Info: pic/pic17.pdf  used on input line 45.
+Package pdftex.def Info: pic/pic17.pdf  used on input line 46.
 (pdftex.def)             Requested size: 217.84734pt x 90.25095pt.
 [48 <./pic/pic16.pdf> <./pic/pic17.pdf>] [49]
 
@@ -861,7 +861,7 @@ on <1.6>, but at most version <1.5> allowed
 <pic/pic18.pdf, id=1073, 157.68109pt x 94.40068pt>
 File: pic/pic18.pdf Graphic file (type pdf)
 <use pic/pic18.pdf>
-Package pdftex.def Info: pic/pic18.pdf  used on input line 164.
+Package pdftex.def Info: pic/pic18.pdf  used on input line 168.
 (pdftex.def)             Requested size: 157.6807pt x 94.40044pt.
 [50 <./pic/pic18.pdf>] [51]
 
@@ -870,7 +870,7 @@ on <1.6>, but at most version <1.5> allowed
 <pic/pic19.pdf, id=1124, 277.00087pt x 127.03963pt>
 File: pic/pic19.pdf Graphic file (type pdf)
 <use pic/pic19.pdf>
-Package pdftex.def Info: pic/pic19.pdf  used on input line 257.
+Package pdftex.def Info: pic/pic19.pdf  used on input line 265.
 (pdftex.def)             Requested size: 277.00018pt x 127.0393pt.
 
 
@@ -879,26 +879,18 @@ on <1.6>, but at most version <1.5> allowed
 <pic/pic20.pdf, id=1125, 272.82828pt x 151.45584pt>
 File: pic/pic20.pdf Graphic file (type pdf)
 <use pic/pic20.pdf>
-Package pdftex.def Info: pic/pic20.pdf  used on input line 263.
+Package pdftex.def Info: pic/pic20.pdf  used on input line 271.
 (pdftex.def)             Requested size: 272.8276pt x 151.45546pt.
-[52 <./pic/pic19.pdf> <./pic/pic20.pdf>]) (./text/part2sect14.tex [53]
-Overfull \hbox (6.24754pt too wide) in paragraph at lines 90--91
+[52]) (./text/part2sect14.tex [53 <./pic/pic19.pdf> <./pic/pic20.pdf>] [54]
+Overfull \hbox (3.19104pt too wide) in paragraph at lines 90--91
 \T2A/cmr/m/it/14.4 чай-ная ве-ли-чи-на, име-ю-щая функ-цию рас-пре-де-ле-ния $\
 OML/cmm/m/it/14.4 F[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x\OT1/cmr/m/n/14.4 )
-$ \T2A/cmr/m/it/14.4 и плот-ность $\OML/cmm/m/it/14.4 f^^X\OT1/cmr/m/n/14.4 (\O
-ML/cmm/m/it/14.4 x\OT1/cmr/m/n/14.4 )$\T2A/cmr/m/it/14.4 ,
+$ \T2A/cmr/m/it/14.4 и плот-ность $\OML/cmm/m/it/14.4 f[]\OT1/cmr/m/n/14.4 (\OM
+L/cmm/m/it/14.4 x\OT1/cmr/m/n/14.4 )$\T2A/cmr/m/it/14.4 ,
  []
 
-) (./text/part2sect15.tex [54]
-Overfull \hbox (18.14348pt too wide) in paragraph at lines 25--30
-\T2A/cmr/m/n/14.4 неот-ри-ца-тель-ная функ-ция $\OML/cmm/m/it/14.4 f[]\OT1/cmr/
-m/n/14.4 (\OML/cmm/m/it/14.4 x[]; [] ; x[]\OT1/cmr/m/n/14.4 )$\T2A/cmr/m/n/14.4
- , что для лю-бой точ-ки $\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x[]; [] ; x[]\O
-T1/cmr/m/n/14.4 ) \OMS/cmsy/m/n/14.4 2
- []
-
-[55] [56]
-Overfull \hbox (4.35709pt too wide) detected at line 157
+) (./text/part2sect15.tex [55] [56] [57]
+Overfull \hbox (4.35709pt too wide) detected at line 156
 \OT1/cmr/m/n/14.4 = [] [] [] \OML/cmm/m/it/14.4 ;
  []
 
@@ -906,36 +898,29 @@ Overfull \hbox (4.35709pt too wide) detected at line 157
 
 pdfTeX warning: pdflatex (file ./pic/pic21.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
-<pic/pic21.pdf, id=1230, 434.27896pt x 191.84474pt>
+<pic/pic21.pdf, id=1233, 434.27896pt x 191.84474pt>
 File: pic/pic21.pdf Graphic file (type pdf)
 <use pic/pic21.pdf>
-Package pdftex.def Info: pic/pic21.pdf  used on input line 164.
+Package pdftex.def Info: pic/pic21.pdf  used on input line 163.
 (pdftex.def)             Requested size: 434.2779pt x 191.84427pt.
-) (./text/part2sect16.tex [57 <./pic/pic21.pdf>]
+) (./text/part2sect16.tex [58 <./pic/pic21.pdf>]
 
 pdfTeX warning: pdflatex (file ./pic/pic22.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
-<pic/pic22.pdf, id=1293, 396.65892pt x 124.32047pt>
+<pic/pic22.pdf, id=1296, 396.65892pt x 124.32047pt>
 File: pic/pic22.pdf Graphic file (type pdf)
 <use pic/pic22.pdf>
 Package pdftex.def Info: pic/pic22.pdf  used on input line 26.
 (pdftex.def)             Requested size: 396.65794pt x 124.32014pt.
-[58 <./pic/pic22.pdf>] [59] [60]) (./text/part2sect17.tex
+[59 <./pic/pic22.pdf>] [60] [61]) (./text/part2sect17.tex
 Overfull \hbox (10.54889pt too wide) in paragraph at lines 4--6
 []\T2A/cmr/m/n/14.4 Начальным мо-мен-том n-го по-ряд-ка дис-крет-ной слу-
  []
 
-[61]
+[62]
 Overfull \hbox (6.34816pt too wide) in paragraph at lines 42--44
 []\T2A/cmr/m/n/14.4 Пусть слу-чай-ная ве-ли-чи-на $\OML/cmm/m/it/14.4 ^^X$ \T2A
 /cmr/m/n/14.4 име-ет нор-маль-ное рас-пре-де-ле-ние (см. опред.
- []
-
-
-Overfull \hbox (34.47194pt too wide) in paragraph at lines 50--51
-[]\T2A/cmr/m/n/14.4 Если слу-чай-ная ве-ли-чи-на $\OML/cmm/m/it/14.4 ^^X$ \T2A/
-cmr/m/n/14.4 при-ни-ма-ет ко-неч-ное чис-ло зна-че-ний $\OML/cmm/m/it/14.4 x[];
- x[]; [] ; x[]$\T2A/cmr/m/n/14.4 ,
  []
 
 
@@ -948,28 +933,28 @@ m/n/14.4 ([]\OML/cmm/m/it/14.4 ; [] ; []$
 
 pdfTeX warning: pdflatex (file ./pic/pic23.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
-<pic/pic23.pdf, id=1384, 421.52382pt x 190.3652pt>
+<pic/pic23.pdf, id=1387, 421.52382pt x 190.3652pt>
 File: pic/pic23.pdf Graphic file (type pdf)
 <use pic/pic23.pdf>
-Package pdftex.def Info: pic/pic23.pdf  used on input line 65.
+Package pdftex.def Info: pic/pic23.pdf  used on input line 64.
 (pdftex.def)             Requested size: 421.52278pt x 190.36473pt.
-[62]
-Overfull \hbox (19.54799pt too wide) in paragraph at lines 76--80
+[63]
+Overfull \hbox (19.54799pt too wide) in paragraph at lines 75--79
 []\T2A/cmr/m/it/14.4 Для лю-бо-го аб-со-лют-но непре-рыв-но-го слу-чай-но-го ве
 к-то-ра $\OML/cmm/m/it/14.4 ^^X \OT1/cmr/m/n/14.4 = (\OML/cmm/m/it/14.4 ^^X[]; 
 [] ; ^^X[]\OT1/cmr/m/n/14.4 ) \OMS/cmsy/m/n/14.4 2
  []
 
-[63 <./pic/pic23.pdf>] [64]
+[64 <./pic/pic23.pdf>] [65]
 
 pdfTeX warning: pdflatex (file ./pic/pic24.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
-<pic/pic24.pdf, id=1450, 213.69836pt x 147.30634pt>
+<pic/pic24.pdf, id=1453, 213.69836pt x 147.30634pt>
 File: pic/pic24.pdf Graphic file (type pdf)
 <use pic/pic24.pdf>
-Package pdftex.def Info: pic/pic24.pdf  used on input line 177.
+Package pdftex.def Info: pic/pic24.pdf  used on input line 176.
 (pdftex.def)             Requested size: 213.69783pt x 147.30595pt.
-[65 <./pic/pic24.pdf>]) (./text/part2sect18.tex [66] [67]
+[66 <./pic/pic24.pdf>]) (./text/part2sect18.tex [67] [68]
 Overfull \hbox (14.8053pt too wide) in paragraph at lines 89--91
 \OML/cmm/m/it/14.4 ^^X$\T2A/cmr/m/n/14.4 , име-ю-щей би-но-ми-аль-ное рас-пре-д
 е-ле-ние, т.е. $\OML/cmm/m/it/14.4 ^^X$ \T2A/cmr/m/n/14.4 при-ни-ма-ет зна-че-н
@@ -982,30 +967,14 @@ Overfull \hbox (4.81615pt too wide) in paragraph at lines 165--165
 []\T2A/cmr/bx/n/20.74 Числовые ха-рак-те-ри-сти-ки за-ви-си-мо-сти слу-
  []
 
-(./text/part2sect19.tex [68] [69] [70]
-Overfull \hbox (3.65767pt too wide) in paragraph at lines 129--130
-[]\T2A/cmr/m/it/14.4 Замечание \T2A/cmr/m/n/14.4 19.8\T2A/cmr/m/it/14.4 . []\T2
-A/cmr/m/n/14.4 Что-бы уви-деть <<устрой-ство>> ко-эф-фи-ци-ен-та кор-ре-ля-ции,
- рас-
- []
-
-[71]
+(./text/part2sect19.tex [69] [70] [71] [72]
 Overfull \hbox (9.07565pt too wide) in paragraph at lines 165--166
 []\T2A/cmr/m/n/14.4 Косвенно мы уже это до-ка-за-ли, см. пп. 19.5.6) и 19.3.1).
  
  []
 
-[72]
-Overfull \hbox (6.47675pt too wide) in paragraph at lines 236--237
-[]\T2A/cmr/m/n/14.4 Докажем те-перь До-ка-жем те-перь, что из $\OML/cmm/m/it/14
-.4 ^^Q \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 a^^X \OT1/cmr/m/n/14.4 + \OML/cmm
-/m/it/14.4 b$ \T2A/cmr/m/n/14.4 сле-ду-ет, что $\OMS/cmsy/m/n/14.4 j\OML/cmm/m/
-it/14.4 ^^Z\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 ^^X; ^^Q\OT1/cmr/m/n/14.4 )\OM
-S/cmsy/m/n/14.4 j \OT1/cmr/m/n/14.4 =
- []
-
-[73]
-Overfull \hbox (0.35486pt too wide) detected at line 307
+[73] [74]
+Overfull \hbox (0.35486pt too wide) detected at line 312
 \OML/cmm/m/it/14.4 ^^Z\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 ^^X[]; ^^X[]\OT1/cm
 r/m/n/14.4 ) = [] = [] = [] = \OMS/cmsy/m/n/14.4 ^^@[]
  []
@@ -1015,14 +984,14 @@ Overfull \hbox (3.66136pt too wide) in paragraph at lines 173--173
 []\T2A/cmr/bx/n/20.74 Неравенство Бье-не-ме^^UЧебышјва и нера-вен-
  []
 
-(./text/part3sect20.tex [74] [75] [76]) (./text/part3sect21.tex
+(./text/part3sect20.tex [75] [76] [77]) (./text/part3sect21.tex
 Overfull \hbox (0.60393pt too wide) in paragraph at lines 3--5
 []\T2A/cmr/m/it/14.4 Замечание \T2A/cmr/m/n/14.4 21.1\T2A/cmr/m/it/14.4 . []\T2
 A/cmr/m/n/14.4 На-пом-ним, что по опред. 11.1 слу-чай-ная ве-ли-чи-на есть функ
 -
  []
 
-[77] [78]
+[78] [79] [80]
 Overfull \hbox (10.92288pt too wide) in paragraph at lines 107--109
 \T2A/cmr/m/n/14.4 тель-ность слу-чай-ных ве-ли-чин $\OMS/cmsy/m/n/14.4 f\OML/cm
 m/m/it/14.4 ^^X[]\OMS/cmsy/m/n/14.4 g[]$ \T2A/cmr/m/n/14.4 с функ-ци-я-ми рас-п
@@ -1030,18 +999,40 @@ m/m/it/14.4 ^^X[]\OMS/cmsy/m/n/14.4 g[]$ \T2A/cmr/m/n/14.4 с функ-ци-я-ми рас-п
 /cmm/m/it/14.4 x\OT1/cmr/m/n/14.4 )\OMS/cmsy/m/n/14.4 g[]$\T2A/cmr/m/n/14.4 ,
  []
 
-[79]) (./text/part3sect22.tex [80] [81]
+) (./text/part3sect22.tex [81] [82] [83]
 Overfull \hbox (3.86052pt too wide) in paragraph at lines 136--137
 []\T2A/cmr/m/n/14.4 Для до-ка-за-тель-ства до-ста-точ-но под-ста-вить $[] [] \O
 T1/cmss/m/n/14.4 M\OML/cmm/m/it/14.4 ^^X[]$ \T2A/cmr/m/n/14.4 в ЗБЧ
  []
 
-[82] [83])
+[84])
 Overfull \hbox (20.90155pt too wide) in paragraph at lines 184--184
 []\T2A/cmr/bx/n/20.74 Предельные тео-ре-мы для би-но-ми-аль-но-го рас-
  []
 
-(./text/part3sect24.tex [84] [85] [86]
+(./text/part3sect23.tex
+Overfull \hbox (0.13805pt too wide) in paragraph at lines 14--15
+[]\T2A/cmr/bx/n/14.4 Определение 23.2. []\T2A/cmr/m/n/14.4 Дис-крет-ная слу-чай
+-ная ве-ли-чи-на $\OML/cmm/m/it/14.4 ^^X$ \T2A/cmr/m/n/14.4 со счјт-ным про-стр
+ан-
+ []
+
+[85]
+
+pdfTeX warning: pdflatex (file ./pic/pic25.pdf): PDF inclusion: found PDF versi
+on <1.6>, but at most version <1.5> allowed
+<pic/pic25.pdf, id=1570, 426.61081pt x 282.50946pt>
+File: pic/pic25.pdf Graphic file (type pdf)
+<use pic/pic25.pdf>
+Package pdftex.def Info: pic/pic25.pdf  used on input line 22.
+(pdftex.def)             Requested size: 426.60976pt x 282.50876pt.
+[86 <./pic/pic25.pdf>] [87]
+Overfull \hbox (6.76196pt too wide) in paragraph at lines 115--116
+[]\T2A/cmr/bx/n/14.4 Замечание 23.7. []\T2A/cmr/m/n/14.4 Ло-каль-ная тео-ре-ма 
+Му-ав-ра до-став-ля-ет при-бли-жјн-ную фор-
+ []
+
+[88] [89]) (./text/part3sect24.tex [90] [91] [92]
 Overfull \hbox (3.07652pt too wide) in paragraph at lines 137--141
 []\T2A/cmr/bx/n/14.4 Лемма 24.12. []\T2A/cmr/m/it/14.4 Ес-ли су-ще-ству-ют на-ч
 аль-ные мо-мен-ты $\OT1/cmss/m/n/14.4 M\OML/cmm/m/it/14.4 ^^X; \OT1/cmss/m/n/14
@@ -1056,7 +1047,7 @@ cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 ^^B[](0)\OML/cmm/m/it/14.4 ; [] ; \OT1/cmr/m/
 n/14.4 ^^B[](0)$\T2A/cmr/m/n/14.4 , до-став-ля-е-мые теор. 24.11,
  []
 
-) (./text/part3sect25.tex [87] [88]) (./text/part3sect26.tex [89] [90] [91]
+) (./text/part3sect25.tex [93] [94]) (./text/part3sect26.tex [95] [96] [97]
 Overfull \hbox (26.59302pt too wide) in paragraph at lines 115--119
 \T2A/cmr/m/n/14.4 то это озна-ча-ет, что по-сле-до-ва-тель-ность ха-рак-те-ри-с
 ти-че-ских функ-ций $[][]$
@@ -1069,85 +1060,85 @@ Overfull \hbox (30.07825pt too wide) in paragraph at lines 120--122
 1/cmr/m/n/14.4 ) = []\OML/cmm/m/it/14.4 e[]$\T2A/cmr/m/n/14.4 . 
  []
 
-[92]
+[98]
 Overfull \hbox (19.85121pt too wide) in paragraph at lines 182--183
 []\T2A/cmr/m/n/14.4 В ка-че-стве след-ствия из ЦПТ до-ка-жем пре-дель-ную тео-р
 е-му Муавра-Лапласа.
  []
 
-[93]) (./text/part3sect27.tex [94]
+[99]) (./text/part3sect27.tex [100]
 Overfull \hbox (37.36153pt too wide) in paragraph at lines 27--39
 []\T2A/cmr/bx/n/14.4 Замечание 27.3. []\T2A/cmr/m/n/14.4 Так как по-верх-но-сти
  рав-ной ве-ро-ят-но-сти, то есть $\OML/cmm/m/it/14.4 f[]\OT1/cmr/m/n/14.4 (\OM
 L/cmm/m/it/14.4 x[]; [] ; x[]\OT1/cmr/m/n/14.4 ) =
  []
 
-[95]
+[101]
 
-pdfTeX warning: pdflatex (file ./pic/pic25.pdf): PDF inclusion: found PDF versi
+pdfTeX warning: pdflatex (file ./pic/pic26.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
-<pic/pic25.pdf, id=1601, 426.61081pt x 282.50946pt>
-File: pic/pic25.pdf Graphic file (type pdf)
-<use pic/pic25.pdf>
-Package pdftex.def Info: pic/pic25.pdf  used on input line 65.
-(pdftex.def)             Requested size: 426.60976pt x 282.50876pt.
-[96 <./pic/pic25.pdf>] [97]
+<pic/pic26.pdf, id=1657, 237.37383pt x 182.98462pt>
+File: pic/pic26.pdf Graphic file (type pdf)
+<use pic/pic26.pdf>
+Package pdftex.def Info: pic/pic26.pdf  used on input line 65.
+(pdftex.def)             Requested size: 237.37323pt x 182.98416pt.
+[102 <./pic/pic26.pdf>] [103]
 Overfull \hbox (5.22797pt too wide) in paragraph at lines 146--147
 []\T2A/cmr/bx/n/14.4 Замечание 27.9. []\T2A/cmr/m/n/14.4 Лег-ко про-ве-рить, чт
 о по-сле-до-ва-тель-ность от-но-ше-ний Стью-
  []
 
-) (./text/part3sect28.tex [98]
+) (./text/part3sect28.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-
+[104]
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-[99] [100]) [101] [102] (./var.aux) ) 
+[105] [106]) [107] [108] (./var.aux) ) 
 Here is how much of TeX's memory you used:
- 9763 strings out of 492982
- 131197 string characters out of 6138580
- 205268 words of memory out of 5000000
- 12889 multiletter control sequences out of 15000+600000
+ 9773 strings out of 492982
+ 131360 string characters out of 6138580
+ 206941 words of memory out of 5000000
+ 12895 multiletter control sequences out of 15000+600000
  31171 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,17n,45p,1078b,703s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-
-super/cm-super-t2a.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-bx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
-/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
-></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
-b></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy8.pfb></usr/share/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb></us
-r/share/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/tex
-mf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/f
-onts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type
-1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-sup
-er/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb
-></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2986.pfb></usr/share/te
-xmf-dist/fonts/type1/public/cm-super/sfbx3583.pfb></usr/share/texmf-dist/fonts/
-type1/public/cm-super/sfcc1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm
--super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000
-.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/shar
-e/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf-dist/fo
-nts/type1/public/cm-super/sfti1440.pfb>
-Output written on var.pdf (103 pages, 3594057 bytes).
+{/usr/share/texmf-dist/fonts/enc/dvips/cm
+-super/cm-super-t2a.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pf
+b></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.p
+fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb></u
+sr/share/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/
+fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-su
+per/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pf
+b></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2986.pfb></usr/share/t
+exmf-dist/fonts/type1/public/cm-super/sfbx3583.pfb></usr/share/texmf-dist/fonts
+/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf-dist/fonts/type1/public/c
+m-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm100
+0.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/sha
+re/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf-dist/f
+onts/type1/public/cm-super/sfti1440.pfb>
+Output written on var.pdf (109 pages, 3698962 bytes).
 PDF statistics:
- 1738 PDF objects out of 2073 (max. 8388607)
- 1307 compressed objects within 14 object streams
+ 1810 PDF objects out of 2073 (max. 8388607)
+ 1361 compressed objects within 14 object streams
  0 named destinations out of 1000 (max. 500000)
- 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 151 words of extra memory for PDF output out of 10000 (max. 10000000)
 

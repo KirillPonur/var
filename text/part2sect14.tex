@@ -13,7 +13,7 @@
 \end{equation*}
 \end{theorem}
 \begin{proof}
-Заметим, что если $g :\mathbb{R} \to \mathbb{R}$  -- монотонная функция, то существует её функция$ g^{-1} :\mathbb{R} \to R$, и выполнено тождество
+Заметим, что если $g :\mathbb{R} \to \mathbb{R}$  -- монотонная функция, то существует её функция $g^{-1} :\mathbb{R} \to R$, и выполнено тождество
 \begin{equation*}
 	g(g^{-1}(y))\equiv y 	
 \end{equation*} 
@@ -41,7 +41,7 @@
 
 
 
-2) Пусть теперь $g$ -- убывающая функция, т.е. $g' < 0 $и $g^{-1} < 0$, тогда
+2) Пусть теперь $g$ -- убывающая функция, т.е. $g'< 0 $ и $(g^{-1})' < 0$, тогда
 неравенство $g(\xi) \leq y$ можно записать в виде $\xi \geq g^{-1} (y)$.
 
 \begin{gather*}
@@ -51,7 +51,7 @@
 	\left[
 	\begin{aligned}
 		t = g^{-1} (\tau ),\qquad & dt = (g^{-1}(\tau ))' d\tau\\
-		t = -\infty \mapsto \tau = -\infty,\quad & t = g^{-1}(y) \mapsto \tau = y
+		t = \infty \mapsto \tau = -\infty,\quad & t = g^{-1}(y) \mapsto \tau = y
 	\end{aligned}\right]=\\=\int\limits^{-\infty}_y (g^{-1}(\tau))' f_\xi(g^{-1}(\tau)) d\tau=
 	\int\limits_{-\infty}^y \left|(g^{-1}(\tau))'\right| f_\xi(g^{-1}(\tau)) d\tau.
 \end{gather*}
@@ -79,7 +79,7 @@
 \label{zam:14.4}
 Пусть теперь $g : \mathbb{R} \to \mathbb{R}$, $y = g(x)$ -- дифференцируемая, кусочно монотонная функция, имеющая интервалы монотонности:
 \begin{equation*}
-	\mathcal{D}=\{D1=(-\infty, a_1], D_2 = (a_1 , a_2 ], \ldots , D_n = (a_{n-1} , \infty)\} 
+	\mathcal{D}=\{D_1=(-\infty, a_1], D_2 = (a_1 , a_2 ], \ldots , D_n = (a_{n-1} , \infty)\} 
 \end{equation*}
 
 Ясно, что все ограничения $g|_{D_i} : D_i \to \mathbb{R}$, определённые по формулам $g|_{D_i}(x)=g(x)$ являются взаимно однозначными функциями и поэтому имеют обратные $\left(g|_{D_i}\right)^{-1}(y)={g|_{D_i}}^{-1}(y)$ с областями определения $g(D_i)$ соответственно.
@@ -87,14 +87,14 @@
 
 \begin{theorem}[Без доказательства]
 	\label{th:14.5}
-Если $\xi $ -- абсолютно непрерывная случайная величина, имеющая функцию распределения $F_\xi (x)$ и плотность $f\xi (x)$, и если $g : \mathbb{R} \to \mathbb{R}$ -- кусочно дифференцируемая и кусочно монотонная функция на интервалах $\mathcal{D}$, то случайная величина $\eta = g(\xi)$ имеет плотность вероятности
+Если $\xi $ -- абсолютно непрерывная случайная величина, имеющая функцию распределения $F_\xi (x)$ и плотность $f_\xi (x)$, и если $g : \mathbb{R} \to \mathbb{R}$ -- кусочно дифференцируемая и кусочно монотонная функция на интервалах $\mathcal{D}$, то случайная величина $\eta = g(\xi)$ имеет плотность вероятности
 \begin{equation*}
 	f_\eta(y)=\sum\limits_{i=1}^n f_\xi\left(
 		{g|_{D_i}}^{-1}(y)
 	\right)\cdot
 	\left|
-		\diff{\left[ {g|_{D_i}}^{-1}(y) \right]}{y}\cdot\mathbf{1}_{g(D_i)}(y)
-	\right|
+		\diff{\left[ {g|_{D_i}}^{-1}(y) \right]}{y}
+	\right|\cdot\mathbf{1}_{g(D_i)}(y)
 \end{equation*}
 
 \end{theorem}

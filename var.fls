@@ -238,9 +238,9 @@ INPUT text/input.tex
 INPUT text/input.tex
 INPUT text/part1sect1.tex
 INPUT text/part1sect1.tex
-INPUT /usr/share/texmf-dist/tex/latex/ucs/data/uni-32.def
-INPUT /usr/share/texmf-dist/tex/latex/ucs/data/uni-32.def
 INPUT /home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/lati1440.tfm
+INPUT /usr/share/texmf-dist/tex/latex/ucs/data/uni-32.def
+INPUT /usr/share/texmf-dist/tex/latex/ucs/data/uni-32.def
 INPUT /usr/share/texmf-dist/tex/latex/ucs/data/uni-34.def
 INPUT /usr/share/texmf-dist/tex/latex/ucs/data/uni-34.def
 INPUT /home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/larm1000.tfm
@@ -394,6 +394,11 @@ INPUT text/part3sect22.tex
 INPUT text/part3sect22.tex
 INPUT /home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/lati1000.tfm
 INPUT /home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/lati0700.tfm
+INPUT text/part3sect23.tex
+INPUT text/part3sect23.tex
+INPUT pic/pic25.pdf
+INPUT ./pic/pic25.pdf
+INPUT ./pic/pic25.pdf
 INPUT text/part3sect24.tex
 INPUT text/part3sect24.tex
 INPUT text/part3sect25.tex
@@ -407,9 +412,9 @@ INPUT text/part3sect27.tex
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmss17.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm10.tfm
-INPUT pic/pic25.pdf
-INPUT ./pic/pic25.pdf
-INPUT ./pic/pic25.pdf
+INPUT pic/pic26.pdf
+INPUT ./pic/pic26.pdf
+INPUT ./pic/pic26.pdf
 INPUT text/part3sect28.tex
 INPUT text/part3sect28.tex
 INPUT var.aux

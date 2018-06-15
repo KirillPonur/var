@@ -10,11 +10,11 @@
 к обыкновенным алгебраическим уравнениям. Ввёл термины: «проводимость», «проницаемость», «индуктивность», «импеданс».} называется функция $U : \mathbb{R}\rightarrow \mathbb{R}$, заданная по формуле (см. рис. \ref{fig16})
 
 \begin{equation*}
-U(x) = 
- \begin{cases}
+u(x) = 
+ \left\{\begin{aligned}
    0,x<0\\
    1,x\geqslant 0 
- \end{cases}
+ \end{aligned}\right\}
 \end{equation*}
 \end{theorem}
 
@@ -32,11 +32,12 @@ U(x) =
 
 1) Функция единичного импульса единичной длины см. рис. \ref{fig17}.
 \begin{equation*}
-U(x) = 
- \begin{cases}
-   0,x<0\\
-   1,x\geqslant 0 
- \end{cases}
+U(x) = \left\{
+ \begin{aligned}
+   &0,&x<0\\
+   &1,&x\geqslant 0\\
+   &0,&x>1
+ \end{aligned}\right\}
  =u(x)-u(x-1).
 \end{equation*}
 
@@ -50,22 +51,23 @@ U(x) =
 2) Функция распределения Бернулли, см. рис. \ref{fig10}.
 \begin{equation*}
 F_{\xi}(x) = 
- \begin{cases}
-   0,x<c\\
-   1-p,0\leqslant x<1
-   p,1\leqslant x
- \end{cases}
+  \left\{
+ \begin{aligned}
+   &0,&x<c\\
+   &1-p,&0\leqslant x<1\\
+   &p,&1\leqslant x
+ \end{aligned}\right\}
  =(1-p)u(x)-pu(x-1).
 \end{equation*}
 
 3) Функция равномерного распределения, см. рис. \ref{fig13}
 \begin{equation*}
 F_{\xi}(x) = 
- \begin{cases}
-   0,x<a\\
-   \frac{x-a}{b-a},a\leqslant x<b
-   1,x\geqslant b
- \end{cases}
+ \left\{\begin{aligned}
+   &0,	&x<a\\
+   &\frac{x-a}{b-a},	&a\leqslant x<b\\
+   &1,	&x\geqslant b
+ \end{aligned}\right\}
  =
  \frac{x-a}{b-a}u(x-a)-\frac{x-a}{b-a}u(x-b)+u(x-b).
 \end{equation*}
@@ -86,13 +88,13 @@ F_{\xi}(x) =
 	Кусочная функция
 \begin{equation*}
 	g(x)=
-	\begin{cases}
-		g_0(x),x<x_0 \\
-		g_1(x), x_0\leqslant x<x_1
-		\ldots,\ldots
-		g_n(x),x_{n-1}\leqslant x<x_n
-		g_{n+1}(x), x_n\leqslant x
- 	\end{cases}
+	\left\{\begin{aligned}
+		&g_0(x),	&x<x_0 \\
+		&g_1(x), 	&x_0\leqslant x<x_1\\
+		&\ldots,	&\ldots\\
+		&g_n(x),	&x_{n-1}\leqslant x<x_n\\
+		&g_{n+1}(x), &x_n\leqslant x
+ 	\end{aligned}\right.
 \end{equation*}
 	представима в виде
 
@@ -106,39 +108,41 @@ g(x)=g_0(x)u(x_0-x)+g_1(x)[u(x-x_0)-u(x-x_1)]+\ldots \\
 	Функция $g(x)$ является суммой следующих функций
 	\begin{equation*}
 		\widetilde{g}_0(x)=
-		\begin{cases}
-			g_0(x), x<x_0
-			0,x_0\leqslant x
-		\end{cases}
+		\left\{\begin{aligned}
+			&g_0(x), &x<x_0\\
+			&0,		&x_0\leqslant x
+		\end{aligned}\right\}
 		=g_0(x)u(x_0-x),
 	\end{equation*}
 
 	\begin{equation*}
 		\widetilde{g}_1(x)=
-		\begin{cases}
-			0(x), x<x_0 \text{ или } x_1\leqslant x \\
-			g_1(x),x_0\leqslant x<x_1
-		\end{cases}
+		\left\{\begin{aligned}
+			&0(x), &x<x_0 \text{ или } x_1\leqslant x \\
+			&g_1(x), &x_0\leqslant x<x_1
+		\end{aligned}\right\}
 		=g_1(x)u(x-x_0)-g_1(x)u(x-x_1),
 	\end{equation*}
 
+\begin{center}
 	$\ldots,\ldots$
+\end{center}
 
 	\begin{equation*}
 		\widetilde{g}_n(x)=
-		\begin{cases}
-			0(x), x<x_{n-1} \text{ или } x_n\leqslant x \\
-			g_n(x),x_{n-1}\leqslant x<x_n
-		\end{cases}
+		\left\{\begin{aligned}
+			&0(x), &x<x_{n-1} \text{ или } x_n\leqslant x \\
+			&g_n(x), &x_{n-1}\leqslant x<x_n
+		\end{aligned}\right\}
 		=g_n(x)u(x-x_{n-1})-g_n(x)u(x-x_{n-n}),
 	\end{equation*}
 
 		\begin{equation*}
 		\widetilde{g}_{n+1}(x)=
-		\begin{cases}
-			0(x), x<x_{n}\\
-			g_n(x),x_{n}\leqslant x<x_n
-		\end{cases}
+		\left\{\begin{aligned}
+			&0(x), &x<x_{n}\\
+			&g_n(x),&x_{n}\leqslant x<x_n
+		\end{aligned}\right\}
 		=g_0(x)u(x-x_{n}).
 	\end{equation*}
 
@@ -151,10 +155,10 @@ g(x)=g_0(x)u(x_0-x)+g_1(x)[u(x-x_0)-u(x-x_1)]+\ldots \\
 
 	\begin{equation*}
 		\delta(x)=
-		\begin{cases}
-			0, x \neq 0 \\
-			\infty, x=0			
-		\end{cases}
+		\left\{\begin{aligned}
+			&0, &x \neq 0 \\
+			&\infty, &x=0			
+		\end{aligned}\right.
 	\end{equation*}
 	и для любого $\varepsilon > 0$ подчинённая условию $\int\limits^\varepsilon_{-\varepsilon}\delta(x)dx=1$. См. рис. \ref{fig18}.
 \end{definition}
@@ -182,6 +186,10 @@ g(x)=g_0(x)u(x_0-x)+g_1(x)[u(x-x_0)-u(x-x_1)]+\ldots \\
 	\item Для любой непрерывной функции $f(x)$ любого $a \in \mathbb{R}$ имеет место тождество
 	\begin{equation*}
 		f(x)\delta(x-a)=f(a)\delta(x-a).
+	\end{equation*}
+	\item Для любой непрерывной функции $f(x)$ любого $a \in \mathbb{R}$ имеет место тождество
+	\begin{equation*}
+		\int\limits_{-\infty}^{\infty}f(x)\delta(x-a)dt=f(a).
 	\end{equation*}
 	\item Для любой непрерывной функции $f(x)$ любого $a \in \mathbb{R}$ имеет место тождество
 	\begin{equation*}
@@ -218,7 +226,7 @@ g(x)=g_0(x)u(x_0-x)+g_1(x)[u(x-x_0)-u(x-x_1)]+\ldots \\
 
 	\begin{gather*}
 		f_{\xi}(x)=F'_{\xi}(x)=\\
-		\\\left(\frac{x-a}{b-a}\right)[u(x-a)-u(x-b)]+\frac{x-a}{b-a}
+		\\\left(\frac{x-a}{b-a}\right)'[u(x-a)-u(x-b)]+\frac{x-a}{b-a}
 		[u(x-a)-u(x-b)]+\delta(x-b)=\\
 		=\frac{1}{b-a}[u(x-a)-u(x-b)]+\frac{x-a}{b-a}[\delta(x-a)-\delta(x-b)]+\delta(x-b)=
 	\end{gather*}
@@ -234,11 +242,11 @@ g(x)=g_0(x)u(x_0-x)+g_1(x)[u(x-x_0)-u(x-x_1)]+\ldots \\
 	Дано.
 	\begin{equation*}
 		F_{\xi}(x)
-		\begin{cases}
-			0, x<0 \\
-			\frac{1}{24}(5x+8), 0\leqslant x<2 \\
-			1, x\geqslant 2
-		\end{cases}
+		\left\{\begin{aligned}
+			&0, &x<0 \\
+			&\frac{1}{24}(5x+8), &0\leqslant x<2 \\
+			&1, &x\geqslant 2
+		\end{aligned}\right\}
 		=\frac{1}{24}(5x+8)[u(x)-x(x-2)]+u(x-2).
 	\end{equation*}
 

@@ -14,7 +14,7 @@
 
 \begin{zam}
 \label{zam:12.2}
-Если $F_{\xi}(x)$ -- дифференцируемая функция распределения, то название "плотность вероятности" имеет следующее объяснение. С одной стороны, используя формулу дифференцирования интеграла по верхнему пределу, имеем $\frac{dF_{\xi}(x)}{dx}=f_{\xi}(t)|_t=x$. С другой стороны, по определению производной имеем:
+Если $F_{\xi}(x)$ -- дифференцируемая функция распределения, то название <<плотность вероятности>> имеет следующее объяснение. С одной стороны, используя формулу дифференцирования интеграла по верхнему пределу, имеем $\frac{dF_{\xi}(x)}{dx}=f_{\xi}(t)|_t=x$. С другой стороны, по определению производной имеем:
 
 \begin{gather*}
 	\frac{dF_{\xi}(x)}{dx} = \frac{F_{\xi}(x+dx)-F_{\xi}(x)}{dx}=\frac{\P(\xi \leq x+dx)-\P(\xi \leq x)}{dx}=\\=\frac{\P(\{\xi \leq x+dx \}\ssm \{\xi \leq x\})}{dx} = \frac{\P(x<\xi \leq x+dx)}{dx}
@@ -22,7 +22,7 @@
 Поэтому
 
 \begin{equation*}
-	f_{\xi}(x)=\frac{\P(x,\xi \leq x+dx)}{dx}	
+	f_{\xi}(x)=\frac{\P(x,\xi \leq x+dx)}{dx}	 
 \end{equation*}
 есть отношение вероятности попадания случайной величины $\xi$ в интервал $(x, x+dx]$ к длине этого интервала $dx$, что физически означает плотность вероятности (<<массы>>) случайной величины $\xi$ в точке $x$.
 \end{zam}
@@ -41,7 +41,7 @@
 
 1) По теор. 11.4.1 функция распределения $F_{\xi}(x)$ -- неубывающая, поэтому $\frac{dF_{\xi}(x)}{dx}=f_{\xi}(x) \geq 0$
 
-2) $\int\limits_{-\infty}^{\infty}f_{\xi}(t)dt = lim_{x \to \infty}\int\limits_{-\infty}^{x}f_{\xi}(t)dt = \lim\limits_{x \to \infty}F_{\xi}(x) = 1$ по свойству 11.4.2.
+2) $\int\limits_{-\infty}^{\infty}f_{\xi}(t)dt = \lim\limits_{x \to \infty}\int\limits_{-\infty}^{x}f_{\xi}(t)dt = \lim\limits_{x \to \infty}F_{\xi}(x) = 1$ по свойству 11.4.2.
 \end{proof} 
 
 \begin{definition}
@@ -58,7 +58,7 @@
 
 1) её функция распределения $F_{\xi}(x)$ непрерывна в $\mathbb{R}$ и дифференцируема почти всюду в $\mathbb{R}$, т.е. равенство $f_{\xi}(x) = \frac{d}{dx}F_{\xi}(x)$ справедливо почти всюду,
 
-2) $\P(\xi = x) = 0$ для любого $x \to \mathbb{R}$,
+2) $\P(\xi = x) = 0$ для любого $x \in \mathbb{R}$,
 
 3) $\P(a \leq \xi < b) = \P(a < \xi < b) = \P(a \leq \xi \leq b) = \P(a < \xi \leq b) = \int_{a}^{b}f_{\xi}(t)dt.$
 \end{theorem}
@@ -71,7 +71,7 @@
 2) Это следует из \ref{th:11.6}.3).
 
 3) Из \ref{th:11.6}.4) имеем
-$$\P(a < \xi \leq b) = F_{\xi}(b) - F_{\xi}(a) = \int_{-\infty}^{b}f_{\xi}(t)dt - \int_{-\infty}^{a}f_{\xi}(t)dt = \int_{a}^{b}f_{\xi}(t)dt$$
+$$\P(a < \xi \leq b) = F_{\xi}(b) - F_{\xi}(a) = \int\limits_{-\infty}^{b}f_{\xi}(t)dt - \int\limits_{-\infty}^{a}f_{\xi}(t)dt = \int\limits_{a}^{b}f_{\xi}(t)dt$$
 
 \end{proof}
 Остальные равенства следуют из \ref{consq:11.7}.
@@ -87,15 +87,15 @@ $$\P(a < \xi \leq b) = F_{\xi}(b) - F_{\xi}(a) = \int_{-\infty}^{b}f_{\xi}(t)dt 
 	F_{\xi}(x) = \P(\xi \leq x) = 
 	\left\{
 	\begin{aligned}
-		0, & x<a\\
-		\frac{x-a}{b-a}, & a \leq x \leq b\\
-		1, & x>b\\
-	\end{aligned}\right. \text{ и } f_{\xi}(x) = 
+		&0, & x<a\\
+		&\frac{x-a}{b-a}, & a \leq x \leq b\\
+		&1, & x>b\\
+	\end{aligned}\right. \text{   и } f_{\xi}(x) = 
 	\left\{
 	\begin{aligned}
-		0, & x<a\\
-		\frac{1}{b-a}, & a \leq x \leq b\\
-		1, & x>b\\
+		&0, & x<a\\
+		&\frac{1}{b-a}, & a \leq x \leq b\\
+		&1, & x>b\\
 	\end{aligned}\right.
 \end{equation*}
 
@@ -110,8 +110,8 @@ $$\P(a < \xi \leq b) = F_{\xi}(b) - F_{\xi}(a) = \int_{-\infty}^{b}f_{\xi}(t)dt 
 	f_{\xi}(x) = 
 	\left\{
 	\begin{aligned}
-		0, & x<0\\
-		\lambda e^{-\lambda x}, & x \geq 0\\
+		&0, & x<0\\
+		&\lambda e^{-\lambda x}, & x \geq 0\\
 	\end{aligned}\right.
 \end{equation*}
 \end{definition}
@@ -169,7 +169,7 @@ $\int_{-\infty}^{\infty}e^{-\frac{t^2}{2}}dt=\sqrt{2\pi}$.
 \end{figure}
  Заметим, что вероятность попадания  нормальной случайной величины в интервал между точками перегиба
 \begin{equation*}
-	\P(a − \sigma \leq \xi \leq a + \sigma) = \frac{1}{\sigma \sqrt{2\pi}} \int_{a-\sigma}^{a+\sigma} e^{-\frac{(x-a)^2}{2\sigma^2}}dx =  \frac{1}{\sigma \sqrt{2\pi}} \int_{-1}^{1} e^{-\frac{t^2}{2}}dt = 2\Phi(1) \approx 0.6827
+	\P(a − \sigma \leq \xi \leq a + \sigma) = \frac{1}{\sigma \sqrt{2\pi}} \int\limits_{a-\sigma}^{a+\sigma} e^{-\frac{(x-a)^2}{2\sigma^2}}dx =  \frac{1}{\sigma \sqrt{2\pi}} \int\limits_{-1}^{1} e^{-\frac{t^2}{2}}dt = 2\Phi(1) \approx 0.6827
 \end{equation*}
 
 где $\Phi(1)$ приближённое значение функции $\Phi (x) = \frac{1}{\sqrt{2\pi}} \int_{0}^{x}e^{-\frac{t^2}{2}}dt$

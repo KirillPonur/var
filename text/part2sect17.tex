@@ -32,7 +32,7 @@
 	$\M\xi=\int\limits_{-\infty}^{\infty} xf_{\xi}(x) dx$ есть координата центра тяжести оси $x$.
 \end{zam}
 
-\begin{example}
+\textbf{Примеры.}
 	\begin{enumerate}
 		\item Пусть случайная величина $\xi$ есть число очков, выпадающих при одном подбрасывании игральной кости. Тогда $\M\xi=\sum\limits_{k=1}^6k\cdot\frac{1}{6}=\frac{1}{6}\cdot21=3,5$ Т.е. в среднем выпадает 3,5 очка!
 
@@ -40,22 +40,21 @@
 		опред. 12.6). Тогда $\M\xi=\int\limits_a^b x\frac{1}{b-a}dx=\frac{a+b}{2}$. Т.е. центр массы, равномерно распределённой на отрезке, находится посередине.
 
 		\item Пусть случайная величина $\xi$ имеет нормальное распределение (см.
-		опред. 12.8. $f_{\xi}(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-a)^2}{2\sigma^2}}$. Тогда
+		опред. 12.8) $f_{\xi}(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-a)^2}{2\sigma^2}}$. Тогда
 			\begin{equation*}
 				\M\xi=\int\limits_{-\infty}^{\infty} 
 				x\frac{1}{\sigma\sqrt{2\pi}}
 				e^{-\frac{(x-a)^2}{2\sigma^2}}dx=a
 			\end{equation*}
 
-		\item Если случайная величина $\xi$ принимает конечное число значений $x_1,x_2,\dots, x_k$, классические вероятности которых соответственно равны $p_1 =\frac{n_1}{n},p_2 =\frac{n_2}{n},\dots,p_1 =\frac{n_k}{n}$,где $n_1 + n_2 + \dots + n_kk = n$, то математическое ожидание
+		\item Если случайная величина $\xi$ принимает конечное число значений $$x_1,x_2,\ldots, x_k,$$ классические вероятности которых соответственно равны $p_1 =\frac{n_1}{n},p_2 =\frac{n_2}{n},\ldots,p_1 =\frac{n_k}{n}$,где $n_1 + n_2 + \ldots + n_k = n$, то математическое ожидание
 		\begin{equation*}
-			\M \xi=\frac{x_1n_1+\dots+x_kn_k}{n}
+			\M \xi=\frac{x_1n_1+\ldots+x_kn_k}{n}
 		\end{equation*}
 		совпадает со средним арифметическим величин 
 		$(\underbrace{x_1,\ldots , x_1}_{n_1 \text{ раз}},\ldots,\underbrace{x_k,\ldots,x_k}_{n_k \text{ раз}} $
 	\end{enumerate}
 
-\end{example}
 
 Математическое ожидание функции случайной величины доставляет
 следующая теорема.
@@ -74,12 +73,12 @@
 			\M\eta=\M g(\xi)=\sum_k g(x_k)p_k
 		\end{equation*}
 	\item Для любого абсолютно непрерывного случайного вектора
-	$\xi = (\xi_1, \dots, \xi_n) \in \mathbb{R}^n$ и произвольной функции 
+	$\xi = (\xi_1, \ldots, \xi_n) \in \mathbb{R}^n$ и произвольной функции 
 	$g : \mathbb{R} \to \mathbb{R}$, математическое ожидание случайной величины 
 	$\eta = g(\xi)$ вычисляется по формуле
 		\begin{equation*}
 			\M\eta=\M g(\xi)=\int\limits_{-\infty}^{\infty}\ldots
-			\int\limits_{-\infty}^{\infty}g(t_1,\ldots,t_n)f_{\xi_1,\ldots,\xi_n}(t_1,\ldots,t_n)dt_1\dots dt_n.
+			\int\limits_{-\infty}^{\infty}g(t_1,\ldots,t_n)f_{\xi_1,\ldots,\xi_n}(t_1,\ldots,t_n)dt_1\ldots dt_n.
 		\end{equation*}
 \end{enumerate}
 
@@ -87,11 +86,11 @@
 
 \begin{proof}
 	Мы докажем эту теорему только для дискретного случая.
-Пусть случайная величина $\xi$ принимает значения $x_1, x_2,\dots, x_k, \dots$ соответственно с вероятностями $p_1, p_2,\dots , p_k,\dots$ . Тогда $\eta= g(\xi)$ принимает
-значения $y_1, y_2, \dots , y_m, \dots$ соответственно с вероятностями $q_1, q_2,\dots, q_m,\dots $, при этом полный прообраз $g^{−1}(y_m)$ может состоять из одного или более чем из одного элемента. Поэтому
+Пусть случайная величина $\xi$ принимает значения $x_1, x_2,\ldots, x_k, \ldots$ соответственно с вероятностями $p_1, p_2,\ldots , p_k,\ldots$ . Тогда $\eta= g(\xi)$ принимает
+значения $y_1, y_2, \ldots , y_m, \ldots$ соответственно с вероятностями $q_1, q_2,\ldots, q_m,\ldots $, при этом полный прообраз $g^{−1}(y_m)$ может состоять из одного или более чем из одного элемента. Поэтому
 	\begin{equation*}
 		q_m=\P(g(\xi)=y_m)=\P(\xi\in g^{-1}(y_m))=\sum\limits
-		{x_k\in g^{-1}(y_m)}p_k.
+		_{x_k\in g^{-1}(y_m)}p_k.
 	\end{equation*}
 
 	Тогда
@@ -153,7 +152,7 @@
 				x_2 f_{\xi}(x_2)dx_2=
 				\M\xi_1+\M\xi_2.
 			\end{gather*}
-		\item По теор. \ref{th:17.4} и \ref{th:15.7} имеем
+		\item По теор. \ref{th:17.4}.2 и \ref{th:15.7}.4 имеем
 
 			\begin{gather*}
 				\M(\xi_1\xi_2)=
@@ -197,6 +196,6 @@
 		\\
 		\M\xi_2=\int\limits_0^{2\pi}\sin x\frac{1}{2\pi}dx=0
 		\\
-		\M(\xi_1\xi_2)=\int\limits_0^{2\pi}\cos\sin x\frac{1}{2\pi}dx=0
+		\M(\xi_1\xi_2)=\int\limits_0^{2\pi}\cos x\sin x\frac{1}{2\pi}dx=0
 	\end{gather*}
 \end{example}
