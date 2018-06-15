@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.4.1)  15 JUN 2018 23:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.4.1)  15 JUN 2018 23:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1047,7 +1047,7 @@ cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 ^^B[](0)\OML/cmm/m/it/14.4 ; [] ; \OT1/cmr/m/
 n/14.4 ^^B[](0)$\T2A/cmr/m/n/14.4 , до-став-ля-е-мые теор. 24.11,
  []
 
-) (./text/part3sect25.tex [93] [94]) (./text/part3sect26.tex [95] [96] [97]
+[93]) (./text/part3sect25.tex [94] [95]) (./text/part3sect26.tex [96] [97]
 Overfull \hbox (26.59302pt too wide) in paragraph at lines 115--119
 \T2A/cmr/m/n/14.4 то это озна-ча-ет, что по-сле-до-ва-тель-ность ха-рак-те-ри-с
 ти-че-ских функ-ций $[][]$
@@ -1060,20 +1060,20 @@ Overfull \hbox (30.07825pt too wide) in paragraph at lines 120--122
 1/cmr/m/n/14.4 ) = []\OML/cmm/m/it/14.4 e[]$\T2A/cmr/m/n/14.4 . 
  []
 
-[98]
+[98] [99]
 Overfull \hbox (19.85121pt too wide) in paragraph at lines 182--183
 []\T2A/cmr/m/n/14.4 В ка-че-стве след-ствия из ЦПТ до-ка-жем пре-дель-ную тео-р
 е-му Муавра-Лапласа.
  []
 
-[99]) (./text/part3sect27.tex [100]
+[100]) (./text/part3sect27.tex [101]
 Overfull \hbox (37.36153pt too wide) in paragraph at lines 27--39
 []\T2A/cmr/bx/n/14.4 Замечание 27.3. []\T2A/cmr/m/n/14.4 Так как по-верх-но-сти
  рав-ной ве-ро-ят-но-сти, то есть $\OML/cmm/m/it/14.4 f[]\OT1/cmr/m/n/14.4 (\OM
 L/cmm/m/it/14.4 x[]; [] ; x[]\OT1/cmr/m/n/14.4 ) =
  []
 
-[101]
+
 
 pdfTeX warning: pdflatex (file ./pic/pic26.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
@@ -1082,7 +1082,7 @@ File: pic/pic26.pdf Graphic file (type pdf)
 <use pic/pic26.pdf>
 Package pdftex.def Info: pic/pic26.pdf  used on input line 65.
 (pdftex.def)             Requested size: 237.37323pt x 182.98416pt.
-[102 <./pic/pic26.pdf>] [103]
+[102] [103 <./pic/pic26.pdf>] [104]
 Overfull \hbox (5.22797pt too wide) in paragraph at lines 146--147
 []\T2A/cmr/bx/n/14.4 Замечание 27.9. []\T2A/cmr/m/n/14.4 Лег-ко про-ве-рить, чт
 о по-сле-до-ва-тель-ность от-но-ше-ний Стью-
@@ -1093,7 +1093,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-[104]
+
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
@@ -1135,7 +1135,7 @@ m-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm100
 0.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/sha
 re/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf-dist/f
 onts/type1/public/cm-super/sfti1440.pfb>
-Output written on var.pdf (109 pages, 3698962 bytes).
+Output written on var.pdf (109 pages, 3699956 bytes).
 PDF statistics:
  1810 PDF objects out of 2073 (max. 8388607)
  1361 compressed objects within 14 object streams
