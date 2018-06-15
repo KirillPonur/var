@@ -1,92 +1,8 @@
 \documentclass[a4paper,14pt]{extarticle}
+
 \input{text/preambule}
-\usepackage{tabu}
-\geometry		
-	{
-		left			=	2.5cm,
-		right 			=	1.5cm,
-		top 			=	2cm,
-		bottom 			=	3.5cm,
-		bindingoffset	=	0cm
-	}
 
-
-\newtheorem{mydef}{Определение}[section]
-\newtheorem{theorem}{Теорема}[section]
-\newtheorem{lemma}[theorem]{Лемма}%[section]
-
-\makeatletter
-% \def\rep@title{1}
-\newtheorem*{rep@theorem}{\rep@title}%[section]
-\theoremstyle{definition}
-\newtheorem*{rep@lemma}{\rep@title}%[section]
-\newtheorem*{rep@definition}{\rep@title}%[section]
-
-\newcommand{\newreptheorem}[2]{%
-	\newenvironment{rep#1}[1]{%
-	 	\def\rep@title{##1}%
-	 	\begin{rep@#1}%
-	 }{%
-	 	\end{rep@#1}
-	 }%
- }
-\makeatother
-
-
-\newreptheorem{theorem}{}
-
-\theoremstyle{definition}
-
-\newreptheorem{lemma}{}
-\newreptheorem{definition}{}
-
-\newtheorem{consq}[theorem]{Следствие}%[section]
-\newtheorem{definition}[theorem]{Определение}%[section]
-\newtheorem{deflemma}[theorem]{Лемма-определение}%[section]
-\newtheorem{zam}[theorem]{Замечание}
-\newtheorem{num}[theorem]{Задача}
-\newtheorem{example}[theorem]{Пример}
-\newtheorem{prop}[theorem]{Свойство}
-
-\theoremstyle{remark}
-\newtheorem{remark}[theorem]{Замечание}%[section]
-
-% \pagestyle{fancy} 
-% \fancyhead{} 
-% \fancyhead[R]{Теория вероятностей} 
-% \fancyhead[L]{Методическое пособие} 
-\fancyfoot{} 
-\fancyfoot[C]{\thepage} 
-
-% Для повтора теорем 
-% \newenvironment{thth}[1]{\begintheorem{#1}{\unskip}}{\endtheorem}
-
-\renewcommand{\backslash}{\smallsetminus}
-\newcommand{\ssm}{\smallsetminus}
-\newcommand{\noo}{\varnothing}
-\newcommand{\oxi}{\overline{\xi}}
-\renewcommand{\O}{\noo}
-
-\DeclareMathOperator{\sinc}{sinc}
-% \DeclareMathOperator{\P}{P}
-% \DeclareMathOperator{\D}{D}
-\newcommand{\M}{\mathsf{M}}
-\newcommand{\D}{\mathsf{D}}
-\renewcommand{\P}{\mathsf{P}}
-% \renewcommand{\Re}{\operatorname{Re}}
-% \renewcommand{\Re}{\operatorname{Re}}
-\renewcommand{\vec}{\mathbf}
-\renewcommand{\Re}{\operatorname{Re}}
-\renewcommand{\Im}{\operatorname{Im}}
-\newcommand{\cov}{\operatorname{cov}}
-\renewcommand{\phi}{\varphi}
-\renewcommand{\kappa}{\varkappa}
-\renewcommand{\epsilon}{\varepsilon}
-\renewcommand{\hat}{\widehat}
-\newcommand{\mean}[1]{\langle#1\rangle}
-\renewcommand{\contentsname}{Оглавление}
 \begin{document}
-
 %%%%%%%%%%%%%%%%%%%%%%
 \input{text/titlepage}
 %%%%%%%%%%%%%%%%%%%%%%
@@ -194,7 +110,7 @@
 \section{Центральная предельная теорема} 
 \input{text/part3sect26}% федя
 
-\section{Сферическое, $\xi^2$-распределение и распределение Стьюдента} 
+\section{Сферическое, $\chi^2$-распределение и распределение Стьюдента} 
 \input{text/part3sect27}% Рита
 
 \section{Цепи Маркова} 
