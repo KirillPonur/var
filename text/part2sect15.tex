@@ -3,11 +3,13 @@
 Пусть $(\Omega,\mathfrak{A},\P)$-- произвольное вероятностное пространство.
 
 \begin{definition}
+\label{def:15.1}
 	Вектор $(\xi_1, \dots, \xi_n)$ называется случайным вектором, если $\xi_1, \dots, \xi_n$ являются случайными величинами, заданными на одном
 и том же вероятностном пространстве $\Omega$.
 \end{definition}
 
 \begin{definition}
+\label{def:15.2}
 	Функцией совместного распределения случайных
 величин $(\xi_1, \dots, \xi_n)$ (или случайного вектора $(\xi_1, \dots, \xi_n)$) называется функция $F_{\xi_1, \dots, \xi_n} : \mathbb{R}^n \rightarrow [0, 1]$, определённая по формуле
 \begin{equation*}
@@ -19,13 +21,13 @@
 \end{definition}
 
 \begin{definition}
+\label{def:15.3}
 	Говорят, что случайные величины $(\xi_1, \dots, \xi_n)$ име-
 ют абсолютно непрерывное совместное распределение, если существует
 такая неотрицательная функция $f_{\xi_1, \dots, \xi_n}(x_1,\dots,x_n)$, что для любой точки
 $(x_1,\dots,x_n)\in\mathbb{R}^n$ функция распределения $F_{\xi_1, \dots, \xi_n}(x_1,\dots,x_n)$ представима в
 виде
 \begin{equation*}
-\label{def:15.3}
 	F_{\xi_1, \dots, \xi_n}(x_1,\dots,x_n)=\int\limits_{-\infty}^{x_1}\ldots
 	\int\limits_{-\infty}^{x_n}f_{\xi_1, \dots, \xi_n}(x_1,\dots,x_n)dt_1\ldots dt_n.
 \end{equation*}
@@ -33,6 +35,7 @@ $(x_1,\dots,x_n)\in\mathbb{R}^n$ функция распределения $F_{\
 \end{definition}
 
 \begin{lemma}
+\label{lemma:15.4}
 Справедлива формула
 	\begin{equation*}
 		f_{\xi_1, \dots, \xi_n}(x_1,\dots,x_n)=\frac
@@ -46,13 +49,17 @@ $(x_1,\dots,x_n)\in\mathbb{R}^n$ функция распределения $F_{\
 \end{proof}
 
 \begin{definition}
+\label{def:15.5}
 	Случайные величины $\xi_1, \dots, \xi_n$ называются независимыми, если для любого набора множеств $A_1,\dots ,A_n \subset \mathbb{R}$, такого что\newline
  	$\xi_1^{-1}(A_1), \dots, \xi_n^{-1}(A_n)\in\mathfrak{A}$ иммет место равенство
  	\begin{equation*}
  		\P(\xi_1\in A_1,\dots,\xi_n\in A_n)=\P(\xi_1 \in A_1)\cdot\ldots\cdot\P(\xi_m\in A_n).
  	\end{equation*}
 \end{definition}
+
  \begin{lemma}
+\label{lemma:15.6}
+
  \begin{enumerate}
  	\item Случайные величины независимы, если для любых $$x_1,\dots, x_n \in \mathbb{R}$$ имеет место равенство
  	\begin{equation*}
@@ -89,8 +96,8 @@ $(x_1,\dots,x_n)\in\mathbb{R}^n$ функция распределения $F_{\
 В следующей теореме без потери общности и для простоты формулировки мы ограничимся двухмерным случаем, $n = 2$.
 
 \begin{theorem}
+\label{th:15.7}
 Свойства функции распределения.
-\label{t:15.7}
 \begin{enumerate}
 	\item Функция $F_{\xi_1,\xi_2}(x_1,x_2)$ является неубывающей по каждому аргументу $x_1$ и $x_2$.
 
@@ -125,6 +132,7 @@ $(x_1,\dots,x_n)\in\mathbb{R}^n$ функция распределения $F_{\
 \end{theorem}
 
 \begin{example}
+\label{ex:15.8}
 	\begin{enumerate}
 		\item Пусть $A \subset \mathbb{R}_n$ — множество, имеющее конечный
 			объём $\mu(A)$, в пространстве с координатами $x = (x_1,\dots, x_n)$. Тогда функция
@@ -147,7 +155,7 @@ $(x_1,\dots,x_n)\in\mathbb{R}^n$ функция распределения $F_{\
 			\right] 
 			\right\},
 		\end{equation*}
-		где $r$ — коэффициент корреляции (см. §18), определяет двухмерную нормальную плотность вероятности случайного вектора $(\xi, \eta)$, показанную на рис. \ref{fig21}. Там же показан эллипс равных вероятностей
+		где $r$ — коэффициент корреляции (см. \S18), определяет двухмерную нормальную плотность вероятности случайного вектора $(\xi, \eta)$, показанную на рис. \ref{fig21}. Там же показан эллипс равных вероятностей
 		\begin{equation*}
 			\frac{(x-a)^2}{\sigma_1^2}-\frac{2r(x-a)(y-b)}{\sigma_1\sigma_2}+\frac{(y-b)^2}{\sigma_2^2}=const
 		\end{equation*}

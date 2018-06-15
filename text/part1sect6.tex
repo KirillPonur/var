@@ -1,8 +1,7 @@
 %!TEX root = ../var.tex
 \textbf{Пример}. Игральную кость подбрасывают один раз. Известно, что выпало более трёх очков. Какова при этом вероятность того, что выпало чётное число очков?
 
-\textit{Решение}. $\Omega_1 = {4, 5, 6}, A = {4, 6}, и P(A) = \mu(A)
-\mu(\Omega) = 3$ .
+\textit{Решение}. $\Omega_1 = {4, 5, 6}$, $A = {4, 6}$, и $\P(A) = \mu(A)$. $\mu(\Omega) = 3$.
 
 \begin{zam}
 \label{zam:6.1}
@@ -15,36 +14,40 @@
 \end{zam}
 
 \begin{definition}
+\label{def:6.2}
 Для того, чтобы подчеркнуть, что событие $A \cap B$ есть
 событие из нового пространства элементарных событий $\Omega_1 = B$ его обозначают $A|B$ и называют \textit{событие $A$ при условии, что событие $B$ произошло.}
 
-Очевидно, что $P(A|B)=\frac{\mu(A|B)}{\mu(B)}$. Вероятность $P(A|B)$ называется \textit{условной вероятностью}.
+Очевидно, что $\P(A|B)=\frac{\mu(A|B)}{\mu(B)}$. Вероятность $\P(A|B)$ называется \textit{условной вероятностью}.
 \end{definition}
 
 \begin{lemma}
-	$P(A|B) = \frac{P(A\cap B)}{P(B)}$.
+\label{lemma:6.3}
+	$\P(A|B) = \frac{\P(A\cap B)}{\P(B)}$.
 \end{lemma}
 
 \begin{proof}
 \begin{equation*}
-	P(A|B) = \frac{\mu(A|B)}{\mu(B)}=\frac{\mu(A\cap B)}{\mu(B)}
+	\P(A|B) = \frac{\mu(A|B)}{\mu(B)}=\frac{\mu(A\cap B)}{\mu(B)}
 =\frac{\frac{\mu(A\cap B)}{\mu(\Omega)}}{\frac{\mu(B)}{\mu(\Omega)}}
-=\frac{P(A\cap B)}{P(B)}.
+=\frac{\P(A\cap B)}{\P(B)}.
 \end{equation*}	
 \end{proof}
 
 Следующая формула непосредственно следует из леммы 6.3 и традиционно называется \textit{теоремой умножения}.
 
 \begin{theorem}[Теорема умножения для двух событий]
-Если $P(B) > 0$, $P(A) > 0$, то
+\label{th:6.4}
+Если $\P(B) > 0$, $\P(A) > 0$, то
 \begin{equation*}
-	P(A \cap B) = P(B)P(A|B) = P(A)P(B|A).
+	\P(A \cap B) = \P(B)\P(A|B) = \P(A)\P(B|A).
 \end{equation*}
 \end{theorem}
 
 \begin{theorem}[Теорема умножения для n событий]
+\label{th:6.5}
 \begin{equation*}
-	P(A_1 \cap A_2 \cap\ldots\cap A_n ) = P(A_1)P(A_2 |A_1 )P(A_3 |A_1 \cap A2 )\cdot... \cdot P(A_n |A_1 \cap A_2 \cap\ldots\cap A_{n−1}),
+	\P(A_1 \cap A_2 \cap\ldots\cap A_n ) = \P(A_1)\P(A_2 |A_1 )\P(A_3 |A_1 \cap A2 )\cdot... \cdot \P(A_n |A_1 \cap A_2 \cap\ldots\cap A_{n−1}),
 \end{equation*}
 если все условные вероятности определены.
 \end{theorem}

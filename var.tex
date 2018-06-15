@@ -3,10 +3,10 @@
 \usepackage{tabu}
 \geometry		
 	{
-		left			=	2cm,
-		right 			=	2cm,
+		left			=	2.5cm,
+		right 			=	1.5cm,
 		top 			=	2cm,
-		bottom 			=	2cm,
+		bottom 			=	3.5cm,
 		bindingoffset	=	0cm
 	}
 
@@ -15,7 +15,31 @@
 \newtheorem{theorem}{Теорема}[section]
 \newtheorem{lemma}[theorem]{Лемма}%[section]
 
+\makeatletter
+% \def\rep@title{1}
+\newtheorem*{rep@theorem}{\rep@title}%[section]
 \theoremstyle{definition}
+\newtheorem*{rep@lemma}{\rep@title}%[section]
+\newtheorem*{rep@definition}{\rep@title}%[section]
+
+\newcommand{\newreptheorem}[2]{%
+	\newenvironment{rep#1}[1]{%
+	 	\def\rep@title{##1}%
+	 	\begin{rep@#1}%
+	 }{%
+	 	\end{rep@#1}
+	 }%
+ }
+\makeatother
+
+
+\newreptheorem{theorem}{}
+
+\theoremstyle{definition}
+
+\newreptheorem{lemma}{}
+\newreptheorem{definition}{}
+
 \newtheorem{consq}[theorem]{Следствие}%[section]
 \newtheorem{definition}[theorem]{Определение}%[section]
 \newtheorem{deflemma}[theorem]{Лемма-определение}%[section]
@@ -33,6 +57,9 @@
 % \fancyhead[L]{Методическое пособие} 
 \fancyfoot{} 
 \fancyfoot[C]{\thepage} 
+
+% Для повтора теорем 
+% \newenvironment{thth}[1]{\begintheorem{#1}{\unskip}}{\endtheorem}
 
 \renewcommand{\backslash}{\smallsetminus}
 \newcommand{\ssm}{\smallsetminus}
@@ -60,108 +87,148 @@
 \renewcommand{\contentsname}{Оглавление}
 \begin{document}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
 \input{text/titlepage}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
 \begin{spacing}{1}
 \tableofcontents
 \end{spacing}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \part*{Исторические сведения}
-\input{text/input}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{text/input}% Кирилл
+%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%
 \part{События и их вероятности}
-\section{Элементы комбинаторики. Схемы шансов} %Кирилл
-\input{text/part1sect1}
+%%%%%%%%%%%%%%%%%%%%%%
 
-\section{События, операции над ними и $\sigma$-алгебры событий} %Федя
-\input{text/part1sect2}
+\section{Элементы комбинаторики. Схемы шансов} 
+\input{text/part1sect1}%Кирилл
 
-\section{Вероятность и её свойства} %Кирилл
-\input{text/part1sect3}
+\section{События, операции над ними и $\sigma$-алгебры событий} 
+\input{text/part1sect2}%Федя
 
-\section{Способы задания и подсчёта вероятности} %Рита
-\input{text/part1sect4}
+\section{Вероятность и её свойства} 
+\input{text/part1sect3}%Кирилл
 
-\section{Независимые события} %Рита
-\input{text/part1sect5}
+\section{Способы задания и подсчёта вероятности}
+\input{text/part1sect4} %Рита
 
-\section{Условная вероятность} %Федя
-\input{text/part1sect6}
+\section{Независимые события} 
+\input{text/part1sect5}%кирилл
 
-\section{Формула полной вероятности и формулы Байеса} %Рита
-\input{text/part1sect7}
+\section{Условная вероятность} 
+\input{text/part1sect6}%Федя
 
-\section{Биномиальное распределение} % Федя
-\input{text/part1sect8}
+\section{Формула полной вероятности и формулы Байеса} 
+\input{text/part1sect7}%кирилл
 
-\section{$k$-номинальное распределение} % Кирилл
-\input{text/part1sect9}
+\section{Биномиальное распределение} 
+\input{text/part1sect8}% Федя
 
-\section{Гипергеометрическое распределение} % федя
-\input{text/part1sect10}
+\section{$k$-номинальное распределение} 
+\input{text/part1sect9}% Кирилл
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Гипергеометрическое распределение} 
+\input{text/part1sect10}% федя
 
+%%%%%%%%%%%%%%%%%%%%%%%%
 \part{Теория случайных величин}
-\section{Случайные величины} % кирилл
-\input{text/part2sect11}
+%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Абсолютно непрерывные случайные величины} %Рита
-\input{text/part2sect12}
+\section{Случайные величины} 
+\input{text/part2sect11}% кирилл
 
-\section{Функции Хевисайда и Дирака} %кирилл
-\input{text/part2sect13}
+\section{Абсолютно непрерывные случайные величины}
+\input{text/part2sect12} %Рита
 
-\section{Функции одной случайной величины} %федя
-\input{text/part2sect14} 
+\section{Функции Хевисайда и Дирака}
+\input{text/part2sect13} %кирилл
 
-\section{Случайные векторы и их распределения} %kirill
-\input{text/part2sect15}
+\section{Функции одной случайной величины}
+\input{text/part2sect14}%федя
 
-\section{Функции от двух случайных величин} %федя
-\input{text/part2sect16}
+\section{Случайные векторы и их распределения} 
+\input{text/part2sect15}%кирилл
 
-\section{Математическое ожидание} %kirill
-\input{text/part2sect17}
+\section{Функции от двух случайных величин} 
+\input{text/part2sect16}%федя
 
-\section{Дисперсия} % Рита
-\input{text/part2sect18}
+\section{Математическое ожидание} 
+\input{text/part2sect17}%кирилл
+
+\section{Дисперсия} 
+\input{text/part2sect18}% Рита
 
 \section{Числовые характеристики зависимости
-случайных величин} % кирилл
-% \input{text/part2sect19}
+случайных величин} 
+\input{text/part2sect19}% кирилл
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
 \part{Законы больших чисел}
+%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Неравенство Бьенеме–Чебышёва и
-неравенство Маркова}%Рита
-\input{text/part3sect20}
+неравенство Маркова}
+\input{text/part3sect20}%Рита
 
 \section{Последовательности случайных величин}
+\input{text/part3sect21}% Кирилл
 
-\section{Законы больших чисел} %Федя
-\input{text/part3sect22}
+
+\section{Законы больших чисел} 
+\input{text/part3sect22}%Федя
 
 \section{Предельные теоремы для
-биномиального распределения}
+биномиального распределения} 
+% \input{text/part3sect23}% Рита
 
-\section{Характеристические функции}%Рита
-\input{text/part3sect24}
+\section{Характеристические функции}
+\input{text/part3sect24}%Рита
 
 \section{Вычисление характеристических
 функций}
+\input{text/part3sect25}% Федя
 
-\section{Центральная предельная теорема} % федя
-\input{text/part3sect26}
+\section{Центральная предельная теорема} 
+\input{text/part3sect26}% федя
 
-\section{Сферическое, $\xi^2$-распределение
-и распределение Стьюдента}
-% \input{text/part3sect27}
+\section{Сферическое, $\xi^2$-распределение и распределение Стьюдента} 
+\input{text/part3sect27}% Рита
 
-\section{Цепи Маркова} % Рита
-\input{text/part3sect28}
+\section{Цепи Маркова} 
+\input{text/part3sect28}% Рита
+
+\newpage
+\begin{thebibliography}{12} 
+\bibitem{gn}
+	Гнеденко Б.В. Курс теории вероятностей. --М.:Наука, 1988.
+\bibitem{ch}
+	Чистяков В.П. Курс теории вероятностей. –М.:Наука, 1996.
+\bibitem{}
+	Боровков А.А. Теория вероятностей. – М.:Эдиториал УРСС, 1999.
+\bibitem{baa}
+	Севастьянов Б.А. Курс теории вероятностей и математической статистики. –М.:Наука, 1982.
+\bibitem{dgb}
+	Двайт Г.Б. Таблицы интегралов и другие математические формулы.
+	9. –СПб.:Лань, 2005.
+\bibitem{kk}
+	Корн Г., Корн Т. Справочник по математике для научных работников и инженеров. М.: Наука, 1968.
+\bibitem{dub}
+	Задачи по теории вероятностей (Сост. А.А. Дубков, А.Т. Гаврилин) Метод. разработка для студентов РФ ф-та ННГУ. –Н.Новгород: ННГУ, 1999. %Диск I://students/libr/probabilitytheory/met-99/.pdf
+\bibitem{sbz}
+	Сборник задач по теории вероятностей, математической статистике и теории случайных функций (под редакцией А.А. Свешникова). М.: Наука, 1970.
+\bibitem{kf}
+	Коваленко И.Н., Филиппова А.А. Теории вероятностей и математической статистики. –М.: Высшая школа, 1992.
+\bibitem{vec}
+	Вентцель Е.С. Теория Вероятностей. –М.: Высшая школа, 1998.
+\bibitem{giis}
+	Гихман И.И., Скороход А.В., Ядренко М.И. Теории вероятностей и математической статистики. –Киев: Высшая школа, 1988.
+\bibitem{agi}
+	Агапов Г.И. Задачник по теории вероятностей –М.: Высшая школа,1996.
+\bibitem{chni}
+	Чернова Н.И. Теория вероятностей: Учеб. пособие/Новосиб. гос ун-т. Новосибирск, 2007. 160 с.
+\end{thebibliography}
+
 \end{document}

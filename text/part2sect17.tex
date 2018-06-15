@@ -27,10 +27,10 @@
 \end{enumerate}
 \end{definition}
 
-\begin{remark}
+\begin{zam}
 	Если ось $x$ рассматривать как тонкую металлическую проволоку с линейной плотностью массы $f_{\xi}(x)$, то число 
 	$\M\xi=\int\limits_{-\infty}^{\infty} xf_{\xi}(x) dx$ есть координата центра тяжести оси $x$.
-\end{remark}
+\end{zam}
 
 \begin{example}
 	\begin{enumerate}
@@ -63,11 +63,11 @@
 \begin{figure}[H]
 	\centering
 	\includegraphics[]{pic/pic23}
-	\caption{К доказательству теор. \ref{t:17.4}}
+	\caption{К доказательству теор. \ref{th:17.4}}
 	\label{fig23}
 \end{figure}
 \begin{theorem}
-\label{t:17.4}
+\label{th:17.4}
 \begin{enumerate}
 	\item Для любой дискретной случайной величины $\xi$ и произвольной функции $g : \mathbb{R} \to \mathbb{R}$, математическое ожидание случайной величины $\eta = g(\xi)$ вычисляется по формуле
 		\begin{equation*}
@@ -83,8 +83,6 @@
 		\end{equation*}
 \end{enumerate}
 
-
-\label{t:17.4}
 \end{theorem}
 
 \begin{proof}
@@ -100,7 +98,7 @@
 	\begin{gather*}
 	\M\eta=\M g(\xi)=\sum_m y_mq_m=\sum_m y_m \sum
 	\limits_{x_k\in g^{-1}(y_m)} p_k=\\=
-	\sum_m\sum\limits{x_k\in g^{-1}(y_m)}g(x_k)p_k=\sum_kg(x_k)p_k.
+	\sum_m\sum\limits_{x_k\in g^{-1}(y_m)}g(x_k)p_k=\sum_kg(x_k)p_k.
 	\end{gather*}
 	Последнее равенство справедливо потому, что суммирование по $x_k\in g^{-1}(y_m)$ означает суммирование вдоль горизонтального уровня $y = y_m$ (см. рис. \ref{fig23}), суммирование по $m$ означает суммирование сумм на горизонтальных уровнях. Поэтому двойное суммирование в левой части эквивалентно суммированию по $k$ в правой части.
 \end{proof}
@@ -128,7 +126,7 @@
 		\item $|\M\xi^n|=|\int\limits^{\infty}_{-\infty}x^nf_{\xi}(x)dx|\leqslant\int\limits^{\infty}_{-\infty}|x^n|f_{\xi}(x)dx=
 		\M|\xi|^n$ и, в частности, $|\M\xi|\leqslant\M|\xi|$.
 
-		\item По теор. \ref{t:17.4} и \ref{15.7} имеем
+		\item По теор. \ref{th:17.4} и \ref{th:15.7} имеем
 
 			\begin{gather*}
 				\M(\xi_1+\xi_2)=
@@ -155,7 +153,7 @@
 				x_2 f_{\xi}(x_2)dx_2=
 				\M\xi_1+\M\xi_2.
 			\end{gather*}
-		\item По теор. \ref{t:17.4} и \ref{t:15.7} имеем
+		\item По теор. \ref{th:17.4} и \ref{th:15.7} имеем
 
 			\begin{gather*}
 				\M(\xi_1\xi_2)=
@@ -171,9 +169,9 @@
 	\end{enumerate}
 \end{proof}
 
-\begin{remark}
+\begin{zam}
 	Обратное утверждение, к только что доказанному свойству 6), неверно. Следующий пример показывает, что из равенства $\M(\xi_1\xi_2)=\M\xi_2\M\xi_2$ не следует независимость величин $\xi_1$ и $\xi_2$.
-\end{remark}
+\end{zam}
 \begin{figure}[H]
 	\centering
 	\includegraphics[]{pic/pic24}
@@ -184,15 +182,15 @@
 \begin{example}
 	Пусть случайный угол $\phi$ равномерно распределён на окружности 
 	$S^1 = \{z = e^{i\phi}\} \subset \mathbb{C} $, где $\phi\in [0, 2\pi]$. Её плотность
-	\begin{equation}
+	\begin{equation*}
 		f_{\phi}(x)=
 		\begin{cases}
 			\frac{1}{2\pi}, &\text{ если } x\in [0,2\pi]\\
 			0, &\text{ если } x\notin [0,2\pi]\\
 		\end{cases}
-	\end{equation}
+	\end{equation*}
 	показана на рис. \ref{fig24}. Случайные величины $\xi_1 = \cos\phi$ и $\xi_2 = \sin\phi$ являются заведомо зависимыми. Ясно, что $\xi_2^2+\xi_1^2=1$. Однако математическое ожидание их произведения равно произведению их математических ожиданий.
-	Действительно по теор. \ref{t:17.4} имеем
+	Действительно по теор. \ref{th:17.4} имеем
 
 	\begin{gather*}
 		\M\xi_1=\int\limits_0^{2\pi}\cos x\frac{1}{2\pi}dx=0 

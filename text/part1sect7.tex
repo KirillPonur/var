@@ -22,6 +22,7 @@
 \end{equation*}
 
 \begin{definition}
+\label{def:7.1}
 	Если события $H_1,H_2,\dots\subset\Omega$
 	
 	1) попарно несовместны (т.е. $H_i ∩ H_j = \O$ при $i \neq j$),
@@ -31,7 +32,7 @@
 		\bigcup^{\infty}_{i=1}H_i=\Omega,
 	\end{equation*}
 
-	3)$P(H_i)>0$ для всех $i\in\mathbb{N}$,
+	3)$\P(H_i)>0$ для всех $i\in\mathbb{N}$,
 
 	то совокупность $\{H_1,H_2,\dots\}$ называется \textit{полной группой событий}, а события $H_1,H_2,\dots$ называются \textit{гипотезами}.
 \end{definition}
@@ -48,26 +49,27 @@
 \begin{proof}
 	Заметим, что $A=A\cap\Omega=A\cap\left(\bigcup\limits^{\infty}_{i=1}H_i\right)=\bigcup\limits_{i=1}^{\infty}\cap H_i$, где события $A\cap H_1,A\cap H_2,\dots$-- попарно несовместны. Используя аддитивность вероятности (аксиома $\mathcal{P}3$), а затем теорему умножения 6.3, получим требуемый результат
 	\begin{equation*}
-		P(A)=\sum\limits_{i=1}^{\infty}P(A\cap H_i)=
-		\sum\limits_{i=1}^{\infty}P(H_i)P(A|H_i).
+		\P(A)=\sum\limits_{i=1}^{\infty}\P(A\cap H_i)=
+		\sum\limits_{i=1}^{\infty}\P(H_i)\P(A|H_i).
 	\end{equation*}
 \end{proof}
 
 \begin{theorem}[формулы Байеса\footnote{Томас Байес (Reverend Thomas Bayes, 1702 — 1761), английский математик и пресветерианский священник.}]
+\label{th:7.2}
 Пусть $H_1,H_2,\dots$ – полная группа
 событий и $A $— некоторое событие положительной вероятности. Тогда
 условная вероятность события $H_k$ при условии, что событие $A$ произошло,
 для любого $k$ вычисляется по формуле
 \begin{equation*}
-	P(H_k|A)=\frac{P(H_k)P(A|H_k)}{\sum\limits_{i=1}^{\infty}P(H_i)P(A|H_i)}.
+	\P(H_k|A)=\frac{\P(H_k)\P(A|H_k)}{\sum\limits_{i=1}^{\infty}\P(H_i)\P(A|H_i)}.
 \end{equation*}
 \end{theorem}
 
 \begin{proof}
 	По определению условной вероятности имеем
 	\begin{equation*}
-		P(H_k|A)=\frac{P(A\cap H_k)}{P(A)}=\frac{P(H_k)P(A|H_k)}
-		{\sum\limits_{i=1}^{\infty}P(H_i)P(A|H_i)}.
+		\P(H_k|A)=\frac{\P(A\cap H_k)}{\P(A)}=\frac{\P(H_k)\P(A|H_k)}
+		{\sum\limits_{i=1}^{\infty}\P(H_i)\P(A|H_i)}.
 	\end{equation*}
 где последнее равенство следует из теоремы умножения и формулы полной
 вероятности

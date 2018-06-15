@@ -1,5 +1,6 @@
 %!TEX root = ../var.tex
 \begin{theorem}
+\label{th:13.1}
 	Функцией единичного скачка или короче функцией
 Хевисайда\footnote{Оливер Хевисайд (англ. Oliver Heaviside; 18 мая 1850 — 3 февраля 1925) — английский учёный-
 самоучка, инженер, математик и физик. Впервые применил комплексные числа для изучения электрических цепей. Переписал уравнения Максвелла из их первоначальной формы, состоявшей из 20 уравнений
@@ -16,7 +17,8 @@ U(x) =
  \end{cases}
 \end{equation*}
 \end{theorem}
-\begin{figure}[h!]
+
+\begin{figure}[H]
 	\centering
 	\includegraphics[]{pic/pic16}
 	\caption{Функция Хевисайда}
@@ -24,6 +26,8 @@ U(x) =
 \end{figure}
 
 \begin{example}
+\label{ex:13.2}
+
 	Функция Хевисайда полезна для записи в строчку формул (многоэтажных) кусочно заданных функций.
 
 1) Функция единичного импульса единичной длины см. рис. \ref{fig17}.
@@ -36,12 +40,12 @@ U(x) =
  =u(x)-u(x-1).
 \end{equation*}
 
-% \begin{figure}[h!]
-% 	\centering
-% 	\includegraphics[]{pic/pic17}
-% 	\caption{$U(x) = u(x)-u(x-1)$}
-% 	\label{fig17}
-% \end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[]{pic/pic17}
+	\caption{$U(x) = u(x)-u(x-1)$}
+	\label{fig17}
+\end{figure}
 
 2) Функция распределения Бернулли, см. рис. \ref{fig10}.
 \begin{equation*}
@@ -54,7 +58,7 @@ F_{\xi}(x) =
  =(1-p)u(x)-pu(x-1).
 \end{equation*}
 
-3) Функция равномерного распределения, см. рис. %\ref{fig13}
+3) Функция равномерного распределения, см. рис. \ref{fig13}
 \begin{equation*}
 F_{\xi}(x) = 
  \begin{cases}
@@ -78,6 +82,7 @@ F_{\xi}(x) =
 \end{example}
 
 \begin{lemma}
+\label{lemma:13.3}
 	Кусочная функция
 \begin{equation*}
 	g(x)=
@@ -140,6 +145,7 @@ g(x)=g_0(x)u(x_0-x)+g_1(x)[u(x-x_0)-u(x-x_1)]+\ldots \\
 \end{proof}
 
 \begin{definition}
+\label{def:13.4}
 	$\delta$-функцией или функцией Дирака называется обобщённая функция
 	$\delta : \mathbb{R}\rightarrow\mathbb{R}\cup\{\infty\}$, заданная по формуле
 
@@ -161,6 +167,7 @@ g(x)=g_0(x)u(x_0-x)+g_1(x)[u(x-x_0)-u(x-x_1)]+\ldots \\
 \end{figure}
 
 \begin{prop}
+\label{prop:13.5}
 \begin{enumerate}
 	\item  Для любого $c \in \mathbb{R}$ и любого $\varepsilon > 0$, имеет место формула
 \begin{equation*}
@@ -173,36 +180,37 @@ g(x)=g_0(x)u(x_0-x)+g_1(x)[u(x-x_0)-u(x-x_1)]+\ldots \\
 		u'(x)=\delta(x)
 	\end{equation*}
 	\item Для любой непрерывной функции $f(x)$ любого $a \in \mathbb{R}$ имеет место тождество
-	\begin{equation}
+	\begin{equation*}
 		f(x)\delta(x-a)=f(a)\delta(x-a).
-	\end{equation}
+	\end{equation*}
 	\item Для любой непрерывной функции $f(x)$ любого $a \in \mathbb{R}$ имеет место тождество
-	\begin{equation}
+	\begin{equation*}
 		\int\limits_{-\infty}^xf(t)\delta(t-a)dt=f(a)u(x-a),
-	\end{equation}
+	\end{equation*}
 	в частности
-	\begin{equation}
+	\begin{equation*}
 		\int\limits_{-\infty}^x\delta(t-a)dt=u(x-a)
-	\end{equation}
+	\end{equation*}
 	\item Если функция $f(x)$ непрерывна и все её нули (корни) $x_1, x_2,\dots , x_k, \dots$ простые (т.е. имеют кратность 1), то
-	\begin{equation}
+	\begin{equation*}
 		\delta(f(x))=\sum\limits_k\frac{\delta(x-x_k)}{|f'(x_k)|}.
-	\end{equation}
+	\end{equation*}
 	\item Дельта-функция получается при вычислении преобразования Фурье
 	от константы:
-	\begin{equation}
+	\begin{equation*}
 		\int\limits_{-\infty}^{\infty}e^{ixt}dt=2\pi \delta(x)
-	\end{equation}
+	\end{equation*}
 \end{enumerate}
 \end{prop}
 
 \begin{example}
+\label{ex:13.6}
 	1. См.пример 13.2.3. 
 
 	Дано
-	\begin{equation}
+	\begin{equation*}
 		F_{\xi}(x)=\frac{x-a}{b-a}[u(x-a)-u(x-b)]+u(x-b).
-	\end{equation}
+	\end{equation*}
 
 	Найти $f_{\xi}(x)$.
 
@@ -212,8 +220,10 @@ g(x)=g_0(x)u(x_0-x)+g_1(x)[u(x-x_0)-u(x-x_1)]+\ldots \\
 		f_{\xi}(x)=F'_{\xi}(x)=\\
 		\\\left(\frac{x-a}{b-a}\right)[u(x-a)-u(x-b)]+\frac{x-a}{b-a}
 		[u(x-a)-u(x-b)]+\delta(x-b)=\\
-		=\frac{1}{b-a}[u(x-a)-u(x-b)]+\frac{x-a}{b-a}[\delta(x-a)-\delta(x-b)]+\delta(x-b)=\\=
-		\frac{1}{b-a}[u(x-a)-u(x-b)]+\frac{x-a}{b-a}\delta(x-a)
+		=\frac{1}{b-a}[u(x-a)-u(x-b)]+\frac{x-a}{b-a}[\delta(x-a)-\delta(x-b)]+\delta(x-b)=
+	\end{gather*}
+	\begin{gather*}
+		=\frac{1}{b-a}[u(x-a)-u(x-b)]+\frac{x-a}{b-a}\delta(x-a)
 		-\frac{x-a}{b-a}\delta(x-b)+\delta(x-b)=\\=
 		\frac{1}{b-a}[u(x-a)-u(x-b)]+\frac{a-a}{b-a}\delta(x-a)-\frac{b-a}{b-a}\delta(x-b)+\delta(x-b)=\\=\frac{1}{b-a}[u(x-a)-u(x-b)].
 	\end{gather*}
@@ -242,13 +252,13 @@ g(x)=g_0(x)u(x_0-x)+g_1(x)[u(x-x_0)-u(x-x_1)]+\ldots \\
 	\end{gather*}
 	См. рис. \ref{fig20}
 \end{example}
-\begin{figure}[h!]
+\begin{figure}[H]
 	\centering
 	\includegraphics[]{pic/pic19}
 	\caption{Функция распределения с двумя скачками}
 	\label{fig19}
 \end{figure}
-\begin{figure}[h!]
+\begin{figure}[H]
 	\centering
 	\includegraphics[]{pic/pic20}
 	\caption{Площадь под плотностью равна 
@@ -257,5 +267,6 @@ g(x)=g_0(x)u(x_0-x)+g_1(x)[u(x-x_0)-u(x-x_1)]+\ldots \\
 \end{figure}
 
 \begin{definition}
+\label{def:13.6}
 	Функции Хевисайда и Дирака и их композиции относятся к классу так называемых обобщённых функций.
 \end{definition}

@@ -1,161 +1,138 @@
-%!TEX root = ../var.tex
-
-\begin{zam}
-Решение многих задач теории вероятностей, особенно тех, которые связаны с суммированием независимых случайных величин, удаётся получить с помощью т.н. характеристических функций.
-Связь между преобразованием Фурье и характеристической функцией можно описать следующим образом. Если обозначить преобразование Фурье через $\Phi$, то формулы прямого и обратного преобразования можно записать
-следующим образом
-\begin{equation*}
-	\phi(t) = \Phi[f] = \frac{1}{\sqrt{2\pi}}\int\limits_{-\infty}^{\infty}e^{-ixt}f(x)dx,
-%и
-	f(x) = \Phi^{-1}[\phi] = \frac{1}{\sqrt{2\pi}} \int\limits_{-\infty}^{\infty}e^{itx}\phi(t)dt.   
-\end{equation*}
-
-Если $\xi$ — случайная величина, имеющая плотность $f_{\xi}(x)$, то в терминах преобразования Фурье её характеристическая функция есть
-$$\Theta_{\xi} (t) = \sqrt{2\pi}\Phi^{-1}[f_{\xi}(x)] = \int\limits_{-\infty}^{\infty}e^{itx}dx$$
-\end{zam}
-
-\begin{definition}
-	Пусть $f_{\xi}(x)$ -- плотность случайной величины $\xi$,
-тогда функция
-$$\Theta_{\xi}(t) = \M e^{it\xi} = \int\limits_{-\infty}^{\infty} e^{itx}f_{\xi}(x)dx$$
-
-называется характеристической функцией случайной величины $\xi$.
-\end{definition}
-
-\begin{zam}
-1) Пусть $\xi$ и $\eta$ -- вещесвенные случайные величины. Составим комплексную случайную величину $\xi + i\eta$. Мы распространяем действие знака математического ожидания $\M$ на любую комплексную случайную величину по свойству линейности:
-$$\M(\xi + i\eta) = \M\xi + i \M\eta.$$
-
-2) Зная характеристическую функцию $\Theta_{\xi} (t)$, можно однозначно восстановить функцию распределения, а также плотность вероятности или ряд распределения случайной величины $\xi$. Например, если модуль характеристической функции $\Theta_{\xi} (t)$ интегрируем на всей прямой, то плотность $f_{\xi}(x)$
-случайной величины $\xi$ находится по формуле
-$$f_{\xi}(x) =\frac{1}{2\pi}\int\limits_{-\infty}^{\infty}e^{itx}\Theta_{\xi} (t) dt.$$
-\end{zam}
-
-\textbf{Свойства характеристических функций}
-
-\begin{theorem}
-	Характеристическая функция $\Theta_{\xi} (t)$ любой случайной величины $\xi$ равномерно непрерывна. (Без доказательства.)
-\end{theorem}
-
-\begin{lemma}
-\begin{enumerate}
-	\item $\Theta_{\xi} (0) = 1$
-	\item $|\Theta_{\xi} (t)| \leq 1 \text{для} −\infty < t < \infty$.
-\end{enumerate}
-\end{lemma}
-
-\begin{proof}
-\begin{enumerate}
-	\item $\Theta_{\xi} (0) = \M e^0 = 1.$
-	\item $|\Theta_{\xi} (t)| = |\M e^{it\xi} | \leq \M|e^{it\xi} | = \M 1 = 1.$
-\end{enumerate}
-\end{proof}
-
- \begin{lemma}
-  	Если $\eta = a\xi + b$, где $a$ и $b$ — постоянные, то
-$$\Theta_{\eta} (t) = \Theta_{\xi} (at) e^{ibt}.$$
-  \end{lemma} 
-
-  \begin{proof}
-  	$\Theta_{\eta} (t) = \M e^{it\eta} = \M e^{it(a\xi+b)} = e^{ibt} \M e^{iat\xi} = e^{ibt} \Theta_{\xi} (at)$
-  \end{proof}
-
-\begin{lemma}
- Если $\xi_1$ и $\xi_2$ -- независимые случайные величины, то
-$$\Theta_{\xi_1 +\xi_2} (t) = \Theta_{\xi_1} (t) \cdot \Theta_{\xi_2} (t).$$
- \end{lemma} 
-
-\begin{proof}
-	Т.к. $\xi_1$ и $\xi_2$ -- независимые величины, то $e^{it\xi_1}$ и $e^{it\xi_2}$ тоже независимы. Тогда
-
-$$\Theta_{\xi_1 +\xi_2} (t) = \M e^{it(\xi_1 +\xi_2 )} = \M e^{it\xi_1} \cdot e^{it\xi_2} \stackrel{16.5.6)}{=}
-= \M e^{it\xi_1} \cdot \M e^{it\xi_2} = \Theta_{\xi_1} (t) \cdot \Theta_{\xi_2} (t).$$
-\end{proof}
-
-\begin{consq}
-Если $\xi_1 , \ldots , \xi_n$ — независимые случайные величины, то
-$$\Theta_{\xi_1 + \ldots +\xi_2} (t) = \Theta_{\xi_1} (t) \cdot \ldots \cdot \Theta_{\xi_n} (t).$$
-\end{consq}
-
-\begin{lemma}
-$\Theta_{\xi} (−t) = \overline{\Theta_{\xi}(t)}$, где черта означает комплексное сопряжение.
-\end{lemma}
-
-\begin{proof}
-$\Theta_{\xi} (−t) = \M e^{−it\xi} = \M \overline{e^{it\xi}} = \overline{\M e^{it\xi}} = \overline{\Theta_{\xi} (t)}.$
-\end{proof}
-
-\begin{lemma}
-Если $\xi$ — дискретная случайная величина, заданная рядом распределения (конечным или бесконечным)
-
-
-
+%!TEX root=../var.tex
+\begin{example}
+Пусть случайная величина $\xi$ имеет распределение Бернулли
 \begin{center}
-	\begin{tabular}{|c|c|c|c|c|}
-		\hline
-		$\xi$ & $x_1$ & $x_2$ & $\ldots$ & $x_k$ \\ \hline
-		$P$  & $p_1$ & $p_2$  & $\ldots$ & $p_k$ \\ \hline
-	\end{tabular}
+\begin{tabular}{|c|c|c|}
+\hline
+$\xi$ & $0$ & $1$\\ \hline
+$P$ & $1-p$ & $p$\\ \hline
+\end{tabular}	
 \end{center}
+По лемме 24.10 её характеристическая функция равна
+$$\Theta\xi (t)=\M e^{it\xi}=e^{it\cdot0}(1-p)+e^{it\cdot1}p=1-p+pe^{it}$$
+\end{example}
 
-то $\Theta_{\xi} (t) = \sum_k e^{itx_{k}} p_k$
-\end{lemma}
-
-\begin{proof}
-Это утверждение непосредственно следует из теор. 17.4.1).
-\end{proof}
-
-\begin{lemma}
-Пусть существует начальный момент $n$-го порядка,
-$n = 1, 2, \ldots$, случайной величины $\xi$, т.е. $\M|\xi|^n < \infty$. Тогда её характеристическая функция $\Theta_{\xi} (t)$ является $n$ раз непрерывно дифференцируемой, и
-её $n$-я производная в нуле равна
+\begin{example}
+Пусть случайная величина $\xi$ имеет биномиальное распределение (см. опред. 9.3) $k \mapsto \P(\xi_n=k)=C_n^k p^k (1-p)^{n-k}$ , где 
+$k=0, 1, 2, \ldots , n$. Её характеристическая функция равна
+%
+%
+$$\Theta\xi (t)=\M e^{it\xi}=
+\sum\limits_{k=0}^n e^{itk} C_n^k p^k (1-p)^{n-k}=
+\sum\limits_{k=0}^n C_n^k (pe^{it})^k (1-p)^{n-k}=(1-p+p^{it})^n,
 $$
-\Theta_{\xi}^{(n)} (0) = i^n \M \xi^n $$
-\end{lemma}
+где последнее равенство есть бином Ньютона.
+\end{example}
 
-\begin{proof}
-Заметим сначала, что т.к. существует начальный момент
-$M\xi^n$ , то существуют все моменты $M\xi^k$ при $k < n$.
 
-По лемме 24.5.2) имеем $|\Theta_{\xi} (t)| \leq 1$, поэтому интеграл в правой части 
+\begin{example}
+Пусть случайная величина $\xi$ имеет распределение Пуассона (см. опред. 23.2) $k \mapsto \P\lambda (k)=\frac{\lambda^k}{k!}e^{-\lambda}$, где $k=0, 1, 2, \ldots$. 
 
-$$\Theta_{\xi} (t) = \int\limits_{-\infty}^{\infty} e^{itx}f_{\xi}(x)dx$$
+По лемме 24.10 её характеристическая функция равна
+%
+%
+$$\Theta\xi (t)=\M e^{it\xi}=
+\sum\limits_{k=0}^n e^{itk} \frac{\lambda^k}{k!}e^{-\lambda}=
+e^{-\lambda}\sum\limits_{k=0}^n \frac{(\lambda e^{it})^k}{k!}=
+e^{-\lambda}e^{\lambda e^{it}}=
+e^{\lambda(e^{it}-1)}
+$$
+\end{example}
 
-равномерно сходится по параметру $t$ и следовательно его можно дифференцировать по $t$:
+\begin{example}
+Пусть случайная величина $\xi$ имеет показательное распределение (см. опред. 12.7), 
+%
+$f_\xi(x)=\left\{
+\begin{aligned}
+	0&, x&<0
+	\lambda e^{-\lambda x}, x&\geq0
+\end{aligned}
+\right.$.
+%
+По лемме 24.10 её характеристическая функция равна
+%
+%
 \begin{gather*}
-	\Theta_{\xi}' (t) = i \int\limits_{-\infty}^{\infty} xe^{itx} f_{\xi}(x)dx,\\
-	\Theta_{\xi}'' (t) = i^2 \int\limits_{-\infty}^{\infty} x^2 e^{itx} f_{\xi}(x)dx,\\
-	\ldots\ldots\ldots\ldots\ldots\ldots\ldots\\
-	\Theta_{\xi}^(n) (t) = i^n \int\limits_{-\infty}^{\infty} x^n e^{itx} f_{\xi}(x)dx.
+\Theta\xi (t)=\M e^{it\xi}=
+\int\limits_0^\infty e^{itx}\lambda e^{-\lambda x} dx=
+\lambda\int\limits_0^\infty e^{-(\lambda-it)x} dx=\\=
+\frac{\lambda}{\lambda-it}
+\left(
+	-e^{-(\lambda-it)x}\bigg|_0^\infty
+\right)=\frac{\lambda}{\lambda-it},
 \end{gather*}
 
-Подставляя в эти равенства $t = 0$, получим требуемый результат: 
-$\Theta_{\xi}' (0) = i\M \xi, \Theta_{\xi}'' (0) = i^2 \M \xi^2 , \ldots , \Theta_{\xi}^{(n)} (0) = i^n \M \xi^n .$
-\end{proof}
 
-\begin{lemma}
-Если существуют начальные моменты $\M \xi, \M \xi^2 , \ldots , \M \xi^n$ случайной величины $\xi$, т.е. $M |\xi|^n < \infty$, тогда в окрестности нуля её
-характеристическая функция $\Theta_{\xi} (t)$ разлагается в ряд Тейлора\footnote{
-Брук Тэйлор (Brook Taylor, 1685 — 1731), английский математик, именем которого назван ряд (опубликованный им в 1715—1717 гг.), однако этот ряд был известен и применялся ещё в XVII веке Грегори и Ньютоном.
-}
-$$\Theta_{\xi} (t) = 1 + \frac{i\M \xi}{1!}t + \frac{i^2 \M \xi^2}{2!}t^2 + \ldots + \frac{i^n \M \xi^n}{n!}t^n + \text{o}(t^n)$$
-\end{lemma}
+поскольку при $x \to \infty$ модуль величины $e^{-(\lambda-it)x}=e^{itx}\lambda e^{-\lambda x}$ стремится к
+нулю: $|e^{-(\lambda-it)x}|=e^{-\lambda x}\to0$.
+\end{example}
 
+\begin{example}
+Пусть случайная величина $\xi$ имеет нормальное распределение  (см. опред. 12.8)
+$$
+f_\xi(x)=\frac{1}{\sigma\sqrt{2\pi}}
+\exp\left(
+	-\frac{(x-a)^2}{2\sigma^2}
+\right)
+$$
+
+Её характеристическая функция равна
+%
+%
+\begin{gather*}
+\Theta\xi (t)=\M e^{it\xi}=
+\frac{1}{\sqrt{2\pi}}
+\int\limits_{-\infty}^\infty e^{itx}e^{-x^2/2} dx=
+%
+\frac{1}{\sqrt{2\pi}}
+\int\limits_{-\infty}^\infty e^{-t^2/2}e^{-(x-it)^2/2} dx=\\=
+e^{-t^2/2}\int\limits_{-\infty}^\infty e^{-(x-it)^2/2} d(x-it)=
+e^{-t^2/2}
+\end{gather*}
+
+где в показателе экспоненты мы выделили полный квадрат и получили интеграл от функции $\frac{1}{\sqrt{2\pi}}e^{-u^2/2}$.
+\end{example}
+
+Напомним:
+\begin{repdefinition}{Определение 16.7}
+Если две независимые случайные величины имеют одно и то же распределение (возможно, с разными параметрами), и их сумма имеет то же самое распределение, то распределение называется устойчивым относительно суммирования.
+\end{repdefinition}
+
+\begin{replemma}{Лемма 16.9}
+Биномиальное распределение является устойчивым относительно суммирования.
+\end{replemma}
 \begin{proof}
-В стандартное разложение функции $\Theta_{\xi} (t)$ в ряд Тейлора
-$$\Theta_{\xi} (t) = 1 + \frac{\Theta_{\xi}'(0)}{1!}t + \frac{\Theta_{\xi}''(0)}{2!}t^2 + \ldots + \frac{\Theta_{\xi}(n)(0)}{n!}t^n + \text{o}(t^n)$$ 
-
-подставим выражения для $\Theta_{\xi}' (0), \Theta_{\xi}'' (0), \ldots , \Theta_{\xi} (0)$, доставляемые теор.
-24.11, получим требуемый результат.
+\begin{equation*}
+	\Theta_{\xi_n +\xi_m}(t) = \theta\xi_n(t)\theta\xi_m(t) = (1-p+pe^{it})^n (1-p+pe^{it})^m=(1-p+pe^{it})^{n+m},
+\end{equation*}
+следовательно
+\begin{equation*}
+	\P_(\xi_{n+m} = k) = C_{n+m}^k p^k (1-p)^{n+m-k},
+\end{equation*}
+где $k = 0, 1, 2, \ldots , n+m$.
 \end{proof}
 
-% \textit{
-В заключение параграфа сформулируем без доказательства теорему Леви, которая устанавливает <<непрерывное>> соответствие между слабо сходящимися последовательностями случайных величин и поточечно сходящимися последовательностями характеристических функций. <<Непрерывность>> этого соответствия состоит в том, что пределу при слабой сходимости соответствует предел при поточечной сходимости и наоборот.
-% }
 
-\begin{theorem}[Леви\footnote{Поль Пьер Леви (Paul Pierre Levy, 1886 — 1971), выдающийся французский математик, основные
-труды по теории вероятностей, функциональному анализу, теории функций и механике.
-} о непрерывном соответствии]
-Последовательность случайных величин $\{\xi_n \}_{n=1}^{\infty}$ слабо сходится к случайной величине $\xi$
-тогда и только тогда, когда последовательность их характеристических функций $\{\Theta_{\xi_n} (t)\}_{n=1}^{\infty}$ поточечно сходится к характеристической функции $\Theta_{\xi} (t)$.
-\end{theorem}
+\begin{replemma}{Лемма 16.10}
+Нормальное распределение является устойчивым относительно суммирования.
+\end{replemma}
+\begin{proof}
+\begin{gather*}
+	\Theta_{\xi_n +\xi_m}(t) = \theta\xi_n(t)\theta\xi_m(t) =
+	\exp\left(
+		ita_1-\frac{t^2\sigma_1^2}{2}
+	\right)
+	\exp\left(
+		ita_2-\frac{t^2\sigma_2^2}{2}
+	\right)
+	=\\=
+	\exp\left(
+		it(a_1+a_2)-\frac{t^2(\sigma_1^2+\sigma_2^2)}{2}
+	\right),
+\end{gather*}
+следовательно
+\begin{equation*}
+	\P_(\xi_{n+m} = k) = C_{n+m}^k p^k (1-p)^{n+m-k},
+\end{equation*}
+где $k = 0, 1, 2, \ldots , n+m$.
+\end{proof}
