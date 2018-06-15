@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.4.1)  15 JUN 2018 00:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.4.1)  15 JUN 2018 12:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -908,20 +908,20 @@ Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
  (./var.aux)
 \openout1 = `var.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
 
 (/usr/share/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
@@ -976,7 +976,7 @@ ABD: EveryShipout initializing macros
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.15} into 
 your preamble.
- on input line 51.
+ on input line 60.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1042,18 +1042,8 @@ File: uesint.fd
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 ) [4] [5] (/usr/share/texmf-dist/tex/latex/ucs/data/uni-34.def
 File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
-)
-
-LaTeX Warning: Reference `t:1' on page 6 undefined on input line 103.
-
-
-LaTeX Warning: Reference `t:1' on page 6 undefined on input line 143.
-
-[6]
-
-LaTeX Warning: Reference `t:2' on page 7 undefined on input line 203.
-
-[7]) (./text/part1sect2.tex [8]
+) [6] [7])
+(./text/part1sect2.tex [8]
 
 pdfTeX warning: pdflatex (file ./pic/pic1.pdf): PDF inclusion: found PDF versio
 n <1.6>, but at most version <1.5> allowed
@@ -1176,7 +1166,7 @@ LaTeX Warning: Command \cyri invalid in math mode on input line 4.
 
 Missing character: There is no и in font cmr12!
 [28]
-Overfull \hbox (7.54466pt too wide) detected at line 47
+Overfull \hbox (7.54466pt too wide) detected at line 48
 \OML/cmm/m/it/14.4 P\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 A[] \OMS/cmsy/m/n/14.
 4 \ \OML/cmm/m/it/14.4 A[] \OMS/cmsy/m/n/14.4 \ [] \ \OML/cmm/m/it/14.4 A[]\OT1
 /cmr/m/n/14.4 ) = \OML/cmm/m/it/14.4 P\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 A[]
@@ -1191,17 +1181,14 @@ L/cmm/m/it/14.4 A[]\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ;
  []
 
 )
-Overfull \hbox (14.06891pt too wide) in paragraph at lines 83--83
+Overfull \hbox (14.06891pt too wide) in paragraph at lines 92--92
 []\T2A/cmr/bx/n/20.74 Формула пол-ной ве-ро-ят-но-сти и фор-му-лы Бай-
  []
 
-(./text/part1sect7.tex
-
-LaTeX Warning: Reference `remark:6.1' on page 29 undefined on input line 11.
-
-(/usr/share/texmf-dist/tex/latex/ucs/data/uni-0.def
+(./text/part1sect7.tex (/usr/share/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-) [29]
+)
+[29]
 
 pdfTeX warning: pdflatex (file ./pic/pic7.pdf): PDF inclusion: found PDF versio
 n <1.6>, but at most version <1.5> allowed
@@ -1330,8 +1317,55 @@ msy/m/n/14.4 ^^T \OML/cmm/m/it/14.4 a \OT1/cmr/m/n/14.4 + \OML/cmm/m/it/14.4 ^^
 Y \OT1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 :\OT1/cmr/m/n/14.4 6827
  []
 
-[43 <./pic/pic13.pdf> <./pic/pic14.pdf>]) (./text/part2sect14.tex [44 <./pic/pi
-c15.pdf>] [45]
+[43 <./pic/pic13.pdf> <./pic/pic14.pdf>]) (./text/part2sect13.tex
+
+pdfTeX warning: pdflatex (file ./pic/pic16.pdf): PDF inclusion: found PDF versi
+on <1.6>, but at most version <1.5> allowed
+<pic/pic16.pdf, id=899, 308.352pt x 96.36pt>
+File: pic/pic16.pdf Graphic file (type pdf)
+<use pic/pic16.pdf>
+Package pdftex.def Info: pic/pic16.pdf  used on input line 21.
+(pdftex.def)             Requested size: 308.35124pt x 96.35974pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `fig17' on page 44 undefined on input line 29.
+
+[44 <./pic/pic15.pdf>] [45 <./pic/pic16.pdf>]
+
+pdfTeX warning: pdflatex (file ./pic/pic18.pdf): PDF inclusion: found PDF versi
+on <1.6>, but at most version <1.5> allowed
+<pic/pic18.pdf, id=1012, 157.68109pt x 94.40068pt>
+File: pic/pic18.pdf Graphic file (type pdf)
+<use pic/pic18.pdf>
+Package pdftex.def Info: pic/pic18.pdf  used on input line 158.
+(pdftex.def)             Requested size: 157.6807pt x 94.40044pt.
+[46 <./pic/pic18.pdf>] [47]
+
+pdfTeX warning: pdflatex (file ./pic/pic19.pdf): PDF inclusion: found PDF versi
+on <1.6>, but at most version <1.5> allowed
+<pic/pic19.pdf, id=1063, 277.00087pt x 127.03963pt>
+File: pic/pic19.pdf Graphic file (type pdf)
+<use pic/pic19.pdf>
+Package pdftex.def Info: pic/pic19.pdf  used on input line 249.
+(pdftex.def)             Requested size: 277.00018pt x 127.0393pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+pdfTeX warning: pdflatex (file ./pic/pic20.pdf): PDF inclusion: found PDF versi
+on <1.6>, but at most version <1.5> allowed
+<pic/pic20.pdf, id=1064, 272.82828pt x 151.45584pt>
+File: pic/pic20.pdf Graphic file (type pdf)
+<use pic/pic20.pdf>
+Package pdftex.def Info: pic/pic20.pdf  used on input line 255.
+(pdftex.def)             Requested size: 272.8276pt x 151.45546pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./text/part2sect14.tex [48] [49 <./pic/pic19.pdf> <./pic/pic20.pdf>]
 Overfull \hbox (6.24754pt too wide) in paragraph at lines 88--89
 \T2A/cmr/m/it/14.4 чай-ная ве-ли-чи-на, име-ю-щая функ-цию рас-пре-де-ле-ния $\
 OML/cmm/m/it/14.4 F[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x\OT1/cmr/m/n/14.4 )
@@ -1339,7 +1373,7 @@ $ \T2A/cmr/m/it/14.4 и плот-ность $\OML/cmm/m/it/14.4 f^^X\OT1/cmr/m/n/14.4 (\O
 ML/cmm/m/it/14.4 x\OT1/cmr/m/n/14.4 )$\T2A/cmr/m/it/14.4 ,
  []
 
-) (./text/part2sect16.tex
+[50]) (./text/part2sect16.tex
 Overfull \hbox (25.41551pt too wide) in paragraph at lines 7--8
 \T2A/cmr/m/it/14.4 удо-вле-тво-ря-ю-щих нера-вен-ству $\OML/cmm/m/it/14.4 g\OT1
 /cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x[]; x[]\OT1/cmr/m/n/14.4 ) \OMS/cmsy/m/n/14.
@@ -1350,17 +1384,20 @@ T1/cmr/m/n/14.4 = \OMS/cmsy/m/n/14.4 f\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 x[]
 r/m/n/14.4 ) \OMS/cmsy/m/n/14.4 ^^T
  []
 
-[46]
+
 
 pdfTeX warning: pdflatex (file ./pic/pic22.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
-<pic/pic22.pdf, id=966, 396.65892pt x 124.32047pt>
+<pic/pic22.pdf, id=1163, 396.65892pt x 124.32047pt>
 File: pic/pic22.pdf Graphic file (type pdf)
 <use pic/pic22.pdf>
 Package pdftex.def Info: pic/pic22.pdf  used on input line 23.
 (pdftex.def)             Requested size: 396.65794pt x 124.32014pt.
-[47 <./pic/pic22.pdf>] [48]) (./text/part2sect18.tex [49] [50]
-Overfull \hbox (14.8053pt too wide) in paragraph at lines 88--90
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[51] [52 <./pic/pic22.pdf>] [53]) (./text/part2sect18.tex [54] [55]
+Overfull \hbox (14.8053pt too wide) in paragraph at lines 89--91
 \OML/cmm/m/it/14.4 ^^X$\T2A/cmr/m/n/14.4 , име-ю-щей би-но-ми-аль-ное рас-пре-д
 е-ле-ние, т.е. $\OML/cmm/m/it/14.4 ^^X$ \T2A/cmr/m/n/14.4 при-ни-ма-ет зна-че-н
 ия $\OT1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14
@@ -1368,31 +1405,56 @@ Overfull \hbox (14.8053pt too wide) in paragraph at lines 88--90
  []
 
 )
-Overfull \hbox (4.81615pt too wide) in paragraph at lines 125--125
+Overfull \hbox (4.81615pt too wide) in paragraph at lines 136--136
 []\T2A/cmr/bx/n/20.74 Числовые ха-рак-те-ри-сти-ки за-ви-си-мо-сти слу-
  []
 
 
-Overfull \hbox (3.66136pt too wide) in paragraph at lines 131--131
+Overfull \hbox (3.66136pt too wide) in paragraph at lines 144--144
 []\T2A/cmr/bx/n/20.74 Неравенство Бье-не-ме^^UЧебышјва и нера-вен-
  []
 
+(./text/part3sect20.tex [56] [57] [58]) (./text/part3sect22.tex [59] [60]
+Overfull \hbox (3.86052pt too wide) in paragraph at lines 136--137
+[]\T2A/cmr/m/n/14.4 Для до-ка-за-тель-ства до-ста-точ-но под-ста-вить $[] [] \O
+T1/cmss/m/n/14.4 M\OML/cmm/m/it/14.4 ^^X[]$ \T2A/cmr/m/n/14.4 в ЗБЧ
+ []
 
-Overfull \hbox (20.90155pt too wide) in paragraph at lines 138--138
+
+LaTeX Warning: Command \cyri invalid in math mode on input line 154.
+
+Missing character: There is no и in font cmr12!
+[61])
+Overfull \hbox (20.90155pt too wide) in paragraph at lines 153--153
 []\T2A/cmr/bx/n/20.74 Предельные тео-ре-мы для би-но-ми-аль-но-го рас-
  []
 
-[51] [52] (./var.aux)
+(./text/part3sect24.tex [62] [63] [64]
+Overfull \hbox (3.07652pt too wide) in paragraph at lines 137--141
+[]\T2A/cmr/bx/n/14.4 Лемма 24.12. []\T2A/cmr/m/it/14.4 Ес-ли су-ще-ству-ют на-ч
+аль-ные мо-мен-ты $\OT1/cmss/m/n/14.4 M\OML/cmm/m/it/14.4 ^^X; \OT1/cmss/m/n/14
+.4 M\OML/cmm/m/it/14.4 ^^X[]; [] ; \OT1/cmss/m/n/14.4 M\OML/cmm/m/it/14.4 ^^X[]
+$ \T2A/cmr/m/it/14.4 слу-
+ []
+
+
+Overfull \hbox (12.69408pt too wide) in paragraph at lines 148--150
+[]\T2A/cmr/m/n/14.4 подставим вы-ра-же-ния для $\OT1/cmr/m/n/14.4 ^^B[](0)\OML/
+cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 ^^B[](0)\OML/cmm/m/it/14.4 ; [] ; \OT1/cmr/m/
+n/14.4 ^^B[](0)$\T2A/cmr/m/n/14.4 , до-став-ля-е-мые теор. 24.11,
+ []
+
+[65]) [66] (./var.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 32358 strings out of 492982
- 739325 string characters out of 6138580
- 892209 words of memory out of 5000000
- 35145 multiletter control sequences out of 15000+600000
- 26440 words of font info for 79 fonts, out of 8000000 for 9000
+ 32422 strings out of 492982
+ 740323 string characters out of 6138580
+ 892315 words of memory out of 5000000
+ 35177 multiletter control sequences out of 15000+600000
+ 30322 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,17n,100p,821b,703s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/
@@ -1406,26 +1468,27 @@ ist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1
 s/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><
 /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
-fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/
-texmf-dist/fonts/type1/public/esint-type1/esint10.pfb></usr/share/texmf-dist/fo
-nts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texmf-dist/fonts/type1/p
-ublic/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/ams
-fonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfb
-x1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr
-/share/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf-di
-st/fonts/type1/public/cm-super/sfbx2986.pfb></usr/share/texmf-dist/fonts/type1/
-public/cm-super/sfbx3583.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super
-/sfcc1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><
-/usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texm
-f-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf-dist/fonts/ty
-pe1/public/cm-super/sfrm2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-s
-uper/sfti1440.pfb>
-Output written on var.pdf (53 pages, 2887707 bytes).
+1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fon
+ts/type1/public/esint-type1/esint10.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/amsfonts/euler/eufm10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
+/symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/
+msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></us
+r/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-d
+ist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/type1
+/public/cm-super/sfbx2986.pfb></usr/share/texmf-dist/fonts/type1/public/cm-supe
+r/sfbx3583.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb>
+</usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/tex
+mf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/t
+ype1/public/cm-super/sfrm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-
+super/sfrm2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1440.
+pfb>
+Output written on var.pdf (67 pages, 3012588 bytes).
 PDF statistics:
- 1135 PDF objects out of 1200 (max. 8388607)
- 860 compressed objects within 9 object streams
+ 1370 PDF objects out of 1440 (max. 8388607)
+ 1036 compressed objects within 11 object streams
  0 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
