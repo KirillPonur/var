@@ -1,5 +1,6 @@
 %!TEX root = ../var.tex
-\begin{definition}
+\begin{definition}\-
+\label{def:17.1}
 	\begin{enumerate}
 		\item Начальным моментом n-го порядка дискретной
 		случайной величины $\xi$ называется число
@@ -14,7 +15,8 @@
 	\end{enumerate}
 \end{definition}
 
-\begin{definition}
+\begin{definition}\-
+\label{def:17.2}
 \begin{enumerate}
 	\item Математическим ожиданием или средним значением дискретной случайной величины $\xi$ называется начальный момент 1-го порядка
 	\begin{equation*}
@@ -28,6 +30,7 @@
 \end{definition}
 
 \begin{zam}
+\label{zam:17.3}
 	Если ось $x$ рассматривать как тонкую металлическую проволоку с линейной плотностью массы $f_{\xi}(x)$, то число 
 	$\M\xi=\int\limits_{-\infty}^{\infty} xf_{\xi}(x) dx$ есть координата центра тяжести оси $x$.
 \end{zam}
@@ -37,10 +40,10 @@
 		\item Пусть случайная величина $\xi$ есть число очков, выпадающих при одном подбрасывании игральной кости. Тогда $\M\xi=\sum\limits_{k=1}^6k\cdot\frac{1}{6}=\frac{1}{6}\cdot21=3,5$ Т.е. в среднем выпадает 3,5 очка!
 
 		\item Пусть случайная величина $\xi$ имеет равномерное распределение (см.
-		опред. 12.6). Тогда $\M\xi=\int\limits_a^b x\frac{1}{b-a}dx=\frac{a+b}{2}$. Т.е. центр массы, равномерно распределённой на отрезке, находится посередине.
+		определение \ref{def:12.6}). Тогда $\M\xi=\int\limits_a^b x\frac{1}{b-a}dx=\frac{a+b}{2}$. Т.е. центр массы, равномерно распределённой на отрезке, находится посередине.
 
 		\item Пусть случайная величина $\xi$ имеет нормальное распределение (см.
-		опред. 12.8) $f_{\xi}(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-a)^2}{2\sigma^2}}$. Тогда
+		определение \ref{def:12.8}) $f_{\xi}(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-a)^2}{2\sigma^2}}$. Тогда
 			\begin{equation*}
 				\M\xi=\int\limits_{-\infty}^{\infty} 
 				x\frac{1}{\sigma\sqrt{2\pi}}
@@ -52,7 +55,7 @@
 			\M \xi=\frac{x_1n_1+\ldots+x_kn_k}{n}
 		\end{equation*}
 		совпадает со средним арифметическим величин 
-		$(\underbrace{x_1,\ldots , x_1}_{n_1 \text{ раз}},\ldots,\underbrace{x_k,\ldots,x_k}_{n_k \text{ раз}} $
+		$$(\underbrace{x_1,\ldots , x_1}_{n_1 \text{ раз}},\ldots,\underbrace{x_k,\ldots,x_k}_{n_k \text{ раз}}.$$
 	\end{enumerate}
 
 
@@ -62,10 +65,11 @@
 \begin{figure}[H]
 	\centering
 	\includegraphics[]{pic/pic23}
-	\caption{К доказательству теор. \ref{th:17.4}}
+	\caption{К доказательству теоремы \ref{th:17.4}}
 	\label{fig23}
 \end{figure}
-\begin{theorem}
+
+\begin{theorem}\-
 \label{th:17.4}
 \begin{enumerate}
 	\item Для любой дискретной случайной величины $\xi$ и произвольной функции $g : \mathbb{R} \to \mathbb{R}$, математическое ожидание случайной величины $\eta = g(\xi)$ вычисляется по формуле
@@ -73,7 +77,7 @@
 			\M\eta=\M g(\xi)=\sum_k g(x_k)p_k
 		\end{equation*}
 	\item Для любого абсолютно непрерывного случайного вектора
-	$\xi = (\xi_1, \ldots, \xi_n) \in \mathbb{R}^n$ и произвольной функции 
+	$$\xi = (\xi_1, \ldots, \xi_n) \in \mathbb{R}^n$$ и произвольной функции 
 	$g : \mathbb{R} \to \mathbb{R}$, математическое ожидание случайной величины 
 	$\eta = g(\xi)$ вычисляется по формуле
 		\begin{equation*}
@@ -103,6 +107,7 @@
 \end{proof}
 
 \begin{theorem}
+\label{th:17.5}
 Математическое ожидание имеет следующие свойства.
 \begin{enumerate}
 	\item Если $C = const$, то $\M C = C$.
@@ -114,7 +119,7 @@
 \end{enumerate}
 \end{theorem}
 
-\begin{proof}
+\begin{proof}\-
 	\begin{enumerate}
 		\item Константу $C$ можно рассматривать как вырожденную случайную величину $\xi = C$, сосредоточенную в точке $x = C$. Её плотность есть $f_{\xi}(x)=\delta(x-C)$. Поэтому имеем $\M\xi^n=\M C^n=\int\limits^{\infty}_{\infty} x^n\delta(x-C)dx=C^n$ и, в частности $\M C=C$
 
@@ -125,7 +130,7 @@
 		\item $|\M\xi^n|=|\int\limits^{\infty}_{-\infty}x^nf_{\xi}(x)dx|\leqslant\int\limits^{\infty}_{-\infty}|x^n|f_{\xi}(x)dx=
 		\M|\xi|^n$ и, в частности, $|\M\xi|\leqslant\M|\xi|$.
 
-		\item По теор. \ref{th:17.4} и \ref{th:15.7} имеем
+		\item По теоремам \ref{th:17.4}.2 и \ref{th:15.7}.4 имеем
 
 			\begin{gather*}
 				\M(\xi_1+\xi_2)=
@@ -152,7 +157,7 @@
 				x_2 f_{\xi}(x_2)dx_2=
 				\M\xi_1+\M\xi_2.
 			\end{gather*}
-		\item По теор. \ref{th:17.4}.2 и \ref{th:15.7}.4 имеем
+		\item По теоремам \ref{th:17.4}.2 и \ref{th:15.7}.4 имеем
 
 			\begin{gather*}
 				\M(\xi_1\xi_2)=
@@ -169,6 +174,7 @@
 \end{proof}
 
 \begin{zam}
+\label{zam:17.6}
 	Обратное утверждение, к только что доказанному свойству 6), неверно. Следующий пример показывает, что из равенства $\M(\xi_1\xi_2)=\M\xi_2\M\xi_2$ не следует независимость величин $\xi_1$ и $\xi_2$.
 \end{zam}
 \begin{figure}[H]
@@ -179,6 +185,7 @@
 \end{figure}
 
 \begin{example}
+\label{ex:17.7}
 	Пусть случайный угол $\phi$ равномерно распределён на окружности 
 	$S^1 = \{z = e^{i\phi}\} \subset \mathbb{C} $, где $\phi\in [0, 2\pi]$. Её плотность
 	\begin{equation*}
@@ -189,7 +196,7 @@
 		\end{cases}
 	\end{equation*}
 	показана на рис. \ref{fig24}. Случайные величины $\xi_1 = \cos\phi$ и $\xi_2 = \sin\phi$ являются заведомо зависимыми. Ясно, что $\xi_2^2+\xi_1^2=1$. Однако математическое ожидание их произведения равно произведению их математических ожиданий.
-	Действительно по теор. \ref{th:17.4} имеем
+	Действительно, по теореме \ref{th:17.4} имеем
 
 	\begin{gather*}
 		\M\xi_1=\int\limits_0^{2\pi}\cos x\frac{1}{2\pi}dx=0 

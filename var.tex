@@ -1,7 +1,16 @@
 \documentclass[a4paper,14pt]{extarticle}
-
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=black,          % color of internal links (change box color with
+    citecolor=black,        % color of links to bibliography
+}
 \input{text/preambule}
-
+\newtheorem*{solve}{Решение}
+\newcommand{\Dots}{\dots}
+\renewcommand{\dots}{\ldots}
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%
 \input{text/titlepage}
@@ -20,33 +29,43 @@
 %%%%%%%%%%%%%%%%%%%%%%
 
 \section{Элементы комбинаторики. Схемы шансов} 
+\label{par:1}
 \input{text/part1sect1}%Кирилл
 
 \section{События, операции над ними и $\sigma$-алгебры событий} 
+\label{par:2}
 \input{text/part1sect2}%Федя
 
 \section{Вероятность и её свойства} 
+\label{par:3}
 \input{text/part1sect3}%Кирилл
 
 \section{Способы задания и подсчёта вероятности}
+\label{par:4}
 \input{text/part1sect4} %Рита
 
 \section{Независимые события} 
+\label{par:5}
 \input{text/part1sect5}%кирилл
 
 \section{Условная вероятность} 
+\label{par:6}
 \input{text/part1sect6}%Федя
 
 \section{Формула полной вероятности и формулы Байеса} 
+\label{par:7}
 \input{text/part1sect7}%кирилл
 
 \section{Биномиальное распределение} 
+\label{par:8}
 \input{text/part1sect8}% Федя
 
 \section{$k$-номинальное распределение} 
+\label{par:9}
 \input{text/part1sect9}% Кирилл
 
 \section{Гипергеометрическое распределение} 
+\label{par:10}
 \input{text/part1sect10}% федя
 
 %%%%%%%%%%%%%%%%%%%%%%%%
@@ -54,31 +73,40 @@
 %%%%%%%%%%%%%%%%%%%%%%
 
 \section{Случайные величины} 
+\label{par:11}
 \input{text/part2sect11}% кирилл
 
 \section{Абсолютно непрерывные случайные величины}
+\label{par:12}
 \input{text/part2sect12} %Рита
 
 \section{Функции Хевисайда и Дирака}
+\label{par:13}
 \input{text/part2sect13} %кирилл
 
 \section{Функции одной случайной величины}
+\label{par:14}
 \input{text/part2sect14}%федя
 
 \section{Случайные векторы и их распределения} 
+\label{par:15}
 \input{text/part2sect15}%кирилл
 
 \section{Функции от двух случайных величин} 
+\label{par:16}
 \input{text/part2sect16}%федя
 
 \section{Математическое ожидание} 
+\label{par:17}
 \input{text/part2sect17}%кирилл
 
 \section{Дисперсия} 
+\label{par:18}
 \input{text/part2sect18}% Рита
 
 \section{Числовые характеристики зависимости
 случайных величин} 
+\label{par:19}
 \input{text/part2sect19}% кирилл
 
 %%%%%%%%%%%%%%%%%%%%%%
@@ -87,33 +115,42 @@
 
 \section{Неравенство Бьенеме–Чебышёва и
 неравенство Маркова}
+\label{par:20}
 \input{text/part3sect20}%Рита
 
 \section{Последовательности случайных величин}
+\label{par:21}
 \input{text/part3sect21}% Кирилл
 
 
 \section{Законы больших чисел} 
+\label{par:22}
 \input{text/part3sect22}%Федя
 
 \section{Предельные теоремы для
 биномиального распределения} 
+\label{par:23}
 \input{text/part3sect23}% Рита
 
 \section{Характеристические функции}
+\label{par:24}
 \input{text/part3sect24}%Рита
 
 \section{Вычисление характеристических
 функций}
+\label{par:25}
 \input{text/part3sect25}% Федя
 
 \section{Центральная предельная теорема} 
+\label{par:26}
 \input{text/part3sect26}% федя
 
 \section{Сферическое, $\chi^2$-распределение и распределение Стьюдента} 
+\label{par:27}
 \input{text/part3sect27}% Рита
 
 \section{Цепи Маркова} 
+\label{par:28}
 \input{text/part3sect28}% Рита
 
 \newpage

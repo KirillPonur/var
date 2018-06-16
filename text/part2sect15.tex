@@ -44,7 +44,7 @@ $(x_1,\dots,x_n)\in\mathbb{R}^n$ функция распределения $F_{\
 \end{lemma}
 
 \begin{proof}
-	Формула получается в результате последовательного дифференцирования формулы опред. \ref{def:15.3} по верхним пределам.
+	Формула получается в результате последовательного дифференцирования формулы определения \ref{def:15.3} по верхним пределам.
 \end{proof}
 
 \begin{definition}
@@ -56,7 +56,7 @@ $(x_1,\dots,x_n)\in\mathbb{R}^n$ функция распределения $F_{\
  	\end{equation*}
 \end{definition}
 
- \begin{lemma}
+ \begin{lemma}\-
 \label{lemma:15.6}
 
  \begin{enumerate}
@@ -71,16 +71,18 @@ $(x_1,\dots,x_n)\in\mathbb{R}^n$ функция распределения $F_{\
  \end{enumerate}
 \end{lemma}
 
-\begin{proof}
+\begin{proof}\-
+
+	1)
 	\begin{gather*}
-	1. \,F_{\xi_1, \dots, \xi_n}(x_1,\dots,x_n)=\P(\xi_1\leqslant x_1,\ldots,\xi_n
+	F_{\xi_1, \dots, \xi_n}(x_1,\dots,x_n)=\P(\xi_1\leqslant x_1,\ldots,\xi_n
 	\leqslant x_n)=\\=
 	\P(\xi_1\leqslant x_1)\cdot\ldots\cdot\P(\xi_n\leqslant x_n)=F_{\xi_1}(x_1)\cdot\ldots\cdot F_{\xi_n}(x_n).
 	\end{gather*}	
 
-	
+	2)
 	\begin{gather*}
-	2. \,f_{\xi_1,\ldots,\xi_n}(x_1,\ldots,x_n)=
+	f_{\xi_1,\ldots,\xi_n}(x_1,\ldots,x_n)=
 		\frac
 		{\partial^nF_{\xi_1, \dots, \xi_n}(x_1,\dots,x_n)}
 		{\partial x_1\ldots \partial x_n}=
@@ -94,9 +96,9 @@ $(x_1,\dots,x_n)\in\mathbb{R}^n$ функция распределения $F_{\
 
 В следующей теореме без потери общности и для простоты формулировки мы ограничимся двухмерным случаем, $n = 2$.
 
-\begin{theorem}
+\begin{theorem}[Свойства функции распределения, без доказательства]
 \label{th:15.7}
-Свойства функции распределения.
+.
 \begin{enumerate}
 	\item Функция $F_{\xi_1,\xi_2}(x_1,x_2)$ является неубывающей по каждому аргументу $x_1$ и $x_2$.
 
@@ -127,10 +129,10 @@ $(x_1,\dots,x_n)\in\mathbb{R}^n$ функция распределения $F_{\
 
 
 \end{enumerate}
-(Без доказательства)
+
 \end{theorem}
 
-\begin{example}
+\begin{example}\-
 \label{ex:15.8}
 	\begin{enumerate}
 		\item Пусть $A \subset \mathbb{R}_n$ — множество, имеющее конечный
@@ -154,7 +156,7 @@ $(x_1,\dots,x_n)\in\mathbb{R}^n$ функция распределения $F_{\
 			\right] 
 			\right\},
 		\end{equation*}
-		где $r$ — коэффициент корреляции (см. \S18), определяет двухмерную нормальную плотность вероятности случайного вектора $(\xi, \eta)$, показанную на рис. \ref{fig21}. Там же показан эллипс равных вероятностей
+		где $r$ — коэффициент корреляции (см. \S\ref{par:18}), определяет двухмерную нормальную плотность вероятности случайного вектора $(\xi, \eta)$, показанную на рис. \ref{fig21}. Там же показан эллипс равных вероятностей
 		\begin{equation*}
 			\frac{(x-a)^2}{\sigma_1^2}-\frac{2r(x-a)(y-b)}{\sigma_1\sigma_2}+\frac{(y-b)^2}{\sigma_2^2}=const
 		\end{equation*}
